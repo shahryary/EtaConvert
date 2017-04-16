@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ValidFragment">
+        <ignore path="src/infinity/zone/etaconvert/PlaceSlideFragment.java" />
+        <ignore path="src/infinity/zone/etaconvert/VpiAbsTestActivity.java" />
+    </issue>
+</lint>
