@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_home_text_one" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/categuary"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background_home"
+        android:text="" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteMain"
+        android:layout_width="wrap_content"
+        android:layout_height="40px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+        
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableRight="@drawable/voicesearch"
+        android:ems="10"
+        android:hint="Type or speak to find units ..."
+        android:inputType="textAutoComplete|textFilter"
+        android:padding="10dp"
+        android:textSize="@dimen/txtSizeautoCompleteMain"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+         >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignLeft="@+id/autoCompleteMain"
+        android:layout_alignRight="@+id/autoCompleteMain"
+        android:layout_below="@+id/categuary"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:width="320dp" />
+
+    <ListView
+        android:id="@+id/lvTextMatches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/autoCompleteMain"
+        android:layout_alignTop="@+id/textView3" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/categuary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/autoCompleteMain"
+        android:layout_below="@+id/autoCompleteMain"
+        android:layout_marginTop="26dp"
+        android:text=""
+        android:textColor="@color/White"
+        android:textSize="@dimen/FavCateguary" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView3"
+        android:height="100dp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

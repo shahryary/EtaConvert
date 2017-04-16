@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="White">#FFFFFF</color>
+    <color name="my_blue">#33b5e5</color>
+    <color name="right_menu_color">#333333</color>
+    <color name="BG_left_menu">#DDDDD9</color>
+    <color name="cal_button_back">#dbdcde</color>
+    <color name="cal_button_arit">#f78610</color>
+    <color name="cal_text">#000000</color>
+        <color name="home_text">#343e40</color>
+    
+    
+</resources>

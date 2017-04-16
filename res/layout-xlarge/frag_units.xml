@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_home_text_one" >
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/searchText"
+         android:textSize="@dimen/txtSize_search_extra_large"
+        android:width="@dimen/searchTextWith_extra_large"
+                android:background="@drawable/rounded_edittext"
+         >
+
+    </EditText>
+
+    <ListView
+        android:id="@+id/AngelView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/searchEditText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/searchEditText"
+        android:layout_below="@+id/searchEditText"
+                android:background="@drawable/background_home" >
+        
+    </ListView>
+
+    <TextView
+        android:id="@+id/choice_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textViewCenter"
+        android:layout_below="@+id/textViewCenter"
+        android:height="@dimen/height"
+        android:width="@dimen/txtWith_extra_large" />
+
+    <TextView
+        android:id="@+id/textViewCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/AngelView"
+        android:height="@dimen/heightCenter" />
+
+    <TextView
+        android:id="@+id/choice_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textViewCenter"
+        android:height="@dimen/height" />
+
+    <EditText
+        android:id="@+id/textNumberTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/choice_2"
+        android:layout_below="@+id/ovalTo"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:hint="@string/textNumberTo"
+        android:inputType="numberSigned|numberDecimal"
+        android:selectAllOnFocus="true"
+        android:textSize="@dimen/txtSize_extra_large"
+        android:width="@dimen/txtWith_extra_large"
+                android:background="@drawable/rounded_edittext"
+        
+         />
+
+    <EditText
+        android:id="@+id/textNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/choice_1"
+        android:layout_below="@+id/ovalFrom"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+                android:background="@drawable/rounded_edittext"
+        
+        android:hint="@string/textNumber"
+        android:inputType="numberSigned|numberDecimal"
+        android:textSize="@dimen/txtSize_extra_large"
+        android:width="@dimen/txtWith_extra_large" />
+
+    <TextView
+        android:id="@+id/ovalFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/choice_1"
+        android:layout_below="@+id/searchEditText"
+        android:paddingLeft="@dimen/paddingleft"
+        android:text="@string/ovalFrom"
+        android:textColor="@color/home_text"
+        android:textSize="@dimen/OvaltxtSize_extra_large"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/button_swap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/choice_2"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/swap" />
+
+    <TextView
+        android:id="@+id/textSep"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/button_swap"
+        android:background="@drawable/seprator" />
+
+    <TextView
+        android:id="@+id/ovalTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_swap"
+        android:layout_marginTop="42dp"
+        android:layout_toLeftOf="@+id/AngelView"
+        android:paddingLeft="@dimen/paddingleft"
+        android:text="@string/ovalTo"
+         android:textStyle="bold"
+        android:textColor="@color/home_text"
+        android:textSize="@dimen/OvaltxtSize_extra_large" />
+
+</RelativeLayout>

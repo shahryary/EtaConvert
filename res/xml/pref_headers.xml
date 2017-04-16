@@ -1,0 +1,17 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="infinity.zone.etaconvert.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" />
+
+
+    <header
+        android:fragment="infinity.zone.etaconvert.SettingsActivity$ErrorReportPreferenceFragment"
+        android:title="@string/error_report_menu" />
+     <header
+        android:fragment="infinity.zone.etaconvert.SettingsActivity$AboutPreferenceFragment"
+        android:title="@string/MenuTitleabout" />
+
+</preference-headers>

@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="en"
+        android:entries="@array/selLan"
+        android:entryValues="@array/selLanValues"
+        android:key="prefSyncFrequency"
+        android:title="@string/LanguageTitle" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="1.0"
+        android:entries="@array/txt_size"
+        android:entryValues="@array/txt_size_value"
+        android:key="txt_list"
+        android:title="@string/pref_title_textsize" />
+    <ListPreference
+        android:defaultValue="#.##"
+        android:entries="@array/list_decimal"
+        android:entryValues="@array/list_values_decimal"
+        android:key="example_list"
+        android:title="@string/title_decimal" />
+   <ListPreference
+        android:defaultValue="."
+        android:entries="@array/list_groupseprate"
+        android:entryValues="@array/listvalues_groupseprate"
+        android:key="groupseprate_list"
+        android:title="@string/text_groupseprate" />
+   
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/theme_txt"
+        android:entryValues="@array/theme_value"
+        android:key="theme_list"
+        android:title="@string/title_theme" />
+</PreferenceScreen>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تبریل</string>
+    <string name="action_settings">سورس</string>
+        <string name="setting">تنظیمات</string>
+    
+    <string name="hello_world">سلام جهان</string>
+    <string name="framgment1">فراگمنت ۱</string>
+    <string name="framgment2">فراگمنت ۱ ۲</string>
+    <string name="framgment3">فراگمنت ۱ 3</string>
+    <string name="framgment4">فراگمنت ۱ 4</string>
+    <string name="framgment5">فراگمنت ۱ 5</string>
+    <string name="drawer_open">Open the Drawer</string>
+    <string name="drawer_close">Close the Drawer</string>
+    
+    <!-- finish -->
+     <string-array name="fragments">
+        <item>فراگمنت 1</item>
+        <item>فراگمنت 2</item>
+        <item>فراگمنت 3</item>
+        <item>فراگمنت 4</item>
+        <item>فراگمنت 5</item>
+        <item>فراگمنت 6</item>
+        <item>فراگمنت 2</item>
+        <item>فراگمنت 3</item>
+        <item>فراگمنت 4</item>
+        <item>فراگمنت 5</item>
+        <item>فراگمنت 6</item>
+        
+    </string-array>
+</resources>

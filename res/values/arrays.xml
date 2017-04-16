@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- language select array list ** file:xml/pref_general.xml -->
+
+    <string-array name="selLanValues">
+        <item>en</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>fa</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Text Font Size array list ** file:xml/pref_general.xml -->
+
+    <string-array name="txt_size_value">
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.4</item>
+    </string-array>
+
+    <!-- Add friend Size array list ** file:xml/pref_general.xml -->
+    <string-array name="list_values_decimal">
+        <item>#.#</item>
+        <item>#.##</item>
+        <item>#.###</item>
+        <item>#.####</item>
+        <item>#.#####</item>
+    </string-array>
+    <string-array name="theme_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+      <string-array name="listvalues_groupseprate">
+        <item>.</item>
+        <item>,</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/mob2"
+    android:tileMode="disabled" />
+ -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+  android:shape="rectangle">
+  <gradient
+       android:startColor="#82b2be" 
+    android:endColor="#a9cbd4"
+    android:angle="270"/>
+     <stroke android:width="2dip"  android:color="#6fa09a"/>
+  
+</shape>

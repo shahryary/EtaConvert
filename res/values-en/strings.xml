@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Main String -->
+    <string name="app_name">EtaConverter</string>
+    <string name="tips">Tips</string>
+    <string name="setting">setting</string>
+    <string name="crash_toast_text">Ooooops ! I crashed, but a report has been sent to my developer to help fix the issue as soon as possible !</string>
+    <string name="crash_dialog_title">Super Converter has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you for your report !</string>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Sidebar Menu -->
+
+    <string-array name="fragments">
+        <item>Home</item>
+        <item>Acceleration/Linear</item>
+        <item>Angels</item>
+        <item>Area</item>
+        <item>Currency</item>
+        <item>Data Size</item>
+        <item>Data Transfer Rate</item>
+        <item>Density</item>
+        <item>Distance/Length</item>
+        <item>Energy and Work</item>
+        <item>Force</item>
+        <item>Power/Capacity</item>
+        <item>Pressure</item>
+        <item>Speed</item>
+        <item>Temperature</item>
+        <item>Time</item>
+        <item>Volume</item>
+        <item>Weight</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment1">section_one</string>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Angle Fragment -->
+
+    <string name="framgment2">Angel</string>
+    <string name="Angel_prompt">Angel</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Angel_list">
+        <item name="1">Circle</item>
+        <item name="2">Digree</item>
+        <item name="3">Grad</item>
+        <item name="4">Minute</item>
+        <item name="5">Radian</item>
+        <item name="6">Second</item>
+        <item name="7">Sextant</item>
+    </string-array>
+
+    <string name="ovalFrom">Unit from ... </string>
+    <string name="ovalTo">UnitTo</string>
+    <string name="textNumber">Enter your value  ... </string>
+    <string name="textNumberTo">Your result  ... </string>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Area Fragment -->
+
+    <string name="framgment3">Area</string>
+    <string name="Area_prompt">Area</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Area_list">
+        <item name="1">Acre</item>
+        <item name="2">Are</item>
+        <item name="3">Barn</item>
+        <item name="4">Decare</item>
+        <item name="5">Hectare</item>
+        <item name="6">Homestead</item>
+        <item name="7">Perch</item>
+        <item name="8">Rude</item>
+        <item name="9">Square</item>
+        <item name="10">SquareCentimeter</item>
+        <item name="11">SquareDecimeter</item>
+        <item name="12">SquareFt</item>
+        <item name="13">SquareInch</item>
+        <item name="14">SquareKilometer</item>
+        <item name="15">SquareMeter</item>
+        <item name="16">SquareMile</item>
+        <item name="17">SquareMillimeter</item>
+        <item name="18">SquareRod</item>
+        <item name="19">SquareYard</item>
+        <item name="20">Township</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Data Size -->
+
+    <string name="framgment4">Data Size</string>
+    <string name="DataSize_prompt">Data Size</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="DataSize_list">
+        <item name="1">Bit</item>
+        <item name="2">Byte</item>
+        <item name="3">Exabit</item>
+        <item name="4">Exabyte</item>
+        <item name="5">Gigabit</item>
+        <item name="6">Gigabyte</item>
+        <item name="7">Kilobit</item>
+        <item name="8">Kilobyte</item>
+        <item name="9">Megabit</item>
+        <item name="10">Megabyte</item>
+        <item name="11">Petabit</item>
+        <item name="12">Petabyte</item>
+        <item name="13">Trabit</item>
+        <item name="14">TraByte</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment5">Data Transfer Rate</string>
+    <string name="DTR_prompt">Data Transfer Rate</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="DTR_list">
+        <item name="1">Bit(P/S)</item>
+        <item name="2">Byte(P/S)</item>
+        <item name="3">Gigabit(P/S)</item>
+        <item name="4">Gigabyte(P/S)</item>
+        <item name="5">Hour(P/Gigabyte)</item>
+        <item name="6">Hour(P/Megabyte)</item>
+        <item name="7">Kilobit(P/S)</item>
+        <item name="8">Kilobyte(P/S)</item>
+        <item name="9">Megabit(P/S)</item>
+        <item name="10">Megabyte(P/S)</item>
+        <item name="11">Minute(P/Gigabyte)</item>
+        <item name="12">Minute(P/Megabyte)</item>
+        <item name="13">Second(P/Gigabyte)</item>
+        <item name="14">Second(P/Megabyte)</item>
+        <item name="15">Terabit(P/S)</item>
+        <item name="16">Terabyte(P/S)</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment6">Density</string>
+    <string name="Density_prompt">Density</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Density_list">
+        <item name="1">British Pounds(per gallon)</item>
+        <item name="2">Grams per cubic meter</item>
+        <item name="3">Grams per liter</item>
+        <item name="4">Grams per milliliter</item>
+        <item name="5">Kilogram per liter</item>
+        <item name="6">Kilograms per cubic meter</item>
+        <item name="7">Milligrams per cubic meter</item>
+        <item name="8">Ounce per British gallon</item>
+        <item name="9">Ounce per cubic foot (oz/ft3)</item>
+        <item name="10">Ounce per cubic inch (oz/in3)</item>
+        <item name="11">Ounce per cubic yard (oz/yd3)</item>
+        <item name="12">Ounce per U.S. bushel</item>
+        <item name="13">Ounce per U.S. gallon (oz/gal)</item>
+        <item name="14">Pound per U.S. bushel</item>
+        <item name="15">Pounds per cubic foot</item>
+        <item name="16">Pounds per cubic inch</item>
+        <item name="17">Pounds per cubic yard</item>
+        <item name="18">Pounds per U.S. gallon</item>
+        <item name="19">Ton per cubic meter</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** DL Fragment -->
+
+    <string name="framgment7">Distance/Length</string>
+    <string name="DL_prompt">Distance/Length</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="DL_list">
+        <item name="1">Angstrom</item>
+        <item name="2">Barleycorn</item>
+        <item name="3">Centimeter</item>
+        <item name="4">Chain</item>
+        <item name="5">Cubit</item>
+        <item name="6">Decimeter</item>
+        <item name="7">Digit</item>
+        <item name="8">Ell</item>
+        <item name="9">Fathom</item>
+        <item name="10">Finger</item>
+        <item name="11">Foot</item>
+        <item name="12">Furlong</item>
+        <item name="13">Hand</item>
+        <item name="14">Inch</item>
+        <item name="15">Kilometer</item>
+        <item name="16">League</item>
+        <item name="17">Line</item>
+        <item name="18">Link</item>
+        <item name="19">Meter</item>
+        <item name="20">Microinch</item>
+        <item name="21">Mikrometer</item>
+        <item name="22">Mil</item>
+        <item name="23">Mile</item>
+        <item name="24">Millimeter</item>
+        <item name="25">Nail</item>
+        <item name="26">Nanometer</item>
+        <item name="27">Palm</item>
+        <item name="28">Perch</item>
+        <item name="29">Rod</item>
+        <item name="30">Yard</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment8">Acceleration / Linear</string>
+    <string name="DTR_prompt">Acceleration / Linear</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="AL_list">
+        <item name="1">Foot per second squared</item>
+        <item name="2">Inch per second squared</item>
+        <item name="3">Kilometer per second squared</item>
+        <item name="4">Meter per second squared</item>
+        <item name="5">Mile per second squared</item>
+        <item name="6">Millimeter per second squared</item>
+        <item name="7">Seconds from 0 to 100 km/h</item>
+        <item name="8">Seconds from 0 to 100 mph</item>
+        <item name="9">Seconds from 0 to 200 mph</item>
+        <item name="10">Seconds from 0 to 60 mph</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Volume Fragment -->
+
+    <string name="framgment9">Volume</string>
+    <string name="Volume_prompt">Volume</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Volume_list">
+        <item name="1">AcreFoot</item>
+        <item name="2">Barrel</item>
+        <item name="3">Centiliter</item>
+        <item name="4">CubicCentimeter</item>
+        <item name="5">CubicDecimeter</item>
+        <item name="6">CubicFoot</item>
+        <item name="7">CubicInch </item>
+        <item name="8">CubicKilometer</item>
+        <item name="9">CubicMeter</item>
+        <item name="10">CubicMillimeter</item>
+        <item name="11">CubicYard</item>
+        <item name="12">Cup</item>
+        <item name="13">Decaliter</item>
+        <item name="14">Deciliter</item>
+        <item name="15">FluidDram</item>
+        <item name="16">FluidOunce</item>
+        <item name="17">Gallon</item>
+        <item name="18">Gill</item>
+        <item name="19">Hectoliter</item>
+        <item name="20">Liter</item>
+        <item name="21">Microliter</item>
+        <item name="22">Milliliter</item>
+        <item name="23">Minim</item>
+        <item name="24">Pint</item>
+        <item name="25">Quart</item>
+        <item name="26">Tablespoon</item>
+        <item name="27">Teaspoon</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+
+
+    <!-- Start Fragment -->
+
+    <string name="framgment10">Temperature</string>
+    <string name="Temperature_prompt">Temperature</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Temp_list">
+        <item name="1">Degrees Celsius</item>
+        <item name="2">Degrees Delisle</item>
+        <item name="3">Degrees Fahrenheit</item>
+        <item name="4">Degrees Newton</item>
+        <item name="5">Degrees Rankine</item>
+        <item name="6">Degrees Reaumur</item>
+        <item name="7">Degrees Rømer</item>
+        <item name="8">Kelvin</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+
+
+    <!-- Start Fragment *** Area Fragment -->
+
+    <string name="framgment11">Weight</string>
+    <string name="Weight_prompt">Weight</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Weight_list">
+        <item name="1">Atomic mass unit</item>
+        <item name="2">Carat</item>
+        <item name="3">Centigram</item>
+        <item name="4">Centner</item>
+        <item name="5">Dram</item>
+        <item name="6">Grain</item>
+        <item name="7">Gram</item>
+        <item name="8">Kilogram</item>
+        <item name="9">Kilonewton (on Earth surface)</item>
+        <item name="10">Kilotonne</item>
+        <item name="11">Long hundredweight (UK)</item>
+        <item name="12">Long ton (UK)</item>
+        <item name="13">Microgram</item>
+        <item name="14">Milligram</item>
+        <item name="15">Newton (on Earth surface)</item>
+        <item name="16">Ounce</item>
+        <item name="17">Pound</item>
+        <item name="18">Short hundredweight (US)</item>
+        <item name="19">Short ton (US)</item>
+        <item name="20">Stone</item>
+        <item name="21">Tonne</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment12">Time</string>
+    <string name="Density_prompt">Time</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Time_list">
+        <item name="1">Anomalistic month</item>
+        <item name="2">Anomalistic year</item>
+        <item name="3">Calendar month</item>
+        <item name="4">Century</item>
+        <item name="5">Day</item>
+        <item name="6">Dracontic month</item>
+        <item name="7">Dracontic year</item>
+        <item name="8">Gregorian year</item>
+        <item name="9">Hour</item>
+        <item name="10">Julian year</item>
+        <item name="11">Minute</item>
+        <item name="12">Second</item>
+        <item name="13">Syderic month</item>
+        <item name="14">Syderic year</item>
+        <item name="15">Synodic month</item>
+        <item name="16">Tropic year</item>
+        <item name="17">Week</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Pressure Fragment -->
+
+    <string name="framgment13">Pressure</string>
+    <string name="Pressure_prompt">Pressure</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Pressure_list">
+        <item name="1">Bar</item>
+        <item name="2">Centimeter of mercury</item>
+        <item name="3">Hectopascal (hPa)</item>
+        <item name="4">Inch of mercury</item>
+        <item name="5">Kilogram per square centimeter</item>
+        <item name="6">Kilogram per square meter</item>
+        <item name="7">Kilonewton per square meter</item>
+        <item name="8">Kilopascal (kPa)</item>
+        <item name="9">Long ton (U.K.) per square foot</item>
+        <item name="10">Long ton (U.K.) per square inch</item>
+        <item name="11">Meganewton per square meter</item>
+        <item name="12">Megapascal (MPa)</item>
+        <item name="13">Millibar</item>
+        <item name="14">Millimeter of mercury (torr)</item>
+        <item name="15">Newton per square centimeter</item>
+        <item name="16">Newton per square meter</item>
+        <item name="17">Newton per square millimeter</item>
+        <item name="18">Pascal (Pa)</item>
+        <item name="19">Physical atmosphere (atm)</item>
+        <item name="20">Pound per square foot</item>
+        <item name="21">Pound per square inch</item>
+        <item name="22">Technical atmosphere</item>
+        <item name="23">Thousand pounds per square inch</item>
+        <item name="24">Ton (U.S.) per square foot</item>
+        <item name="25">Ton (U.S.) per square inch</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Energy Fragment -->
+
+    <string name="framgment14">Energy and Work</string>
+    <string name="Enwo_prompt">Energy and Work</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="EnergyWork_list">
+        <item name="1">British Thermal Unit (BTU)</item>
+        <item name="2">Calorie (cal)</item>
+        <item name="3">Electronvolt (eV)</item>
+        <item name="4">Erg</item>
+        <item name="5">Foot-Pound </item>
+        <item name="6">Joule (J)</item>
+        <item name="7">Kilocalorie (kcal)</item>
+        <item name="8">Kilogram of TNT</item>
+        <item name="9">Kilojoule (kJ)</item>
+        <item name="10">Kilowatt hour (kW*h)</item>
+        <item name="11">Megacalorie (Mcal)</item>
+        <item name="12">Megajoule (MJ)</item>
+        <item name="13">Metre-kilogram (mkg)</item>
+        <item name="14">Million BTU</item>
+        <item name="15">Quad</item>
+        <item name="16">Therm</item>
+        <item name="17">Ton of TNT</item>
+        <item name="18">Tonne (metric) of TNT</item>
+        <item name="19">Watt hour (W*h)</item>
+        <item name="20">Watt second (W*s)</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Power/Capacity Fragment -->
+
+    <string name="framgment15">Power/Capacity</string>
+    <string name="Power_prompt">Power/Capacity</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="PC_list">
+        <item name="1">British Thermal Unit per hour</item>
+        <item name="2">British Thermal Unit per minute</item>
+        <item name="3">British Thermal Unit per second</item>
+        <item name="4">Calories per hour</item>
+        <item name="5">Calories per second</item>
+        <item name="6">Erg per second</item>
+        <item name="7">Foot pound-force per second</item>
+        <item name="8">Gigacalories per hour</item>
+        <item name="9">Gigacalories per second</item>
+        <item name="10">Horsepower,boiler</item>
+        <item name="11">Horsepower,electric</item>
+        <item name="12">Horsepower,hydraulic</item>
+        <item name="13">Horsepower,mechanical (imperial)</item>
+        <item name="14">Horsepower,metric</item>
+        <item name="15">Joule per hour</item>
+        <item name="16">Joule per second </item>
+        <item name="17">Kilocalories per hour</item>
+        <item name="18">Kilocalories per second</item>
+        <item name="19">Kilogramm-force meter per second</item>
+        <item name="20">Kilowatt</item>
+        <item name="21">Megawatt</item>
+        <item name="22">Metric refrigeration ton (RT)</item>
+        <item name="23">U.S. refrigeration ton (USRT)</item>
+        <item name="24">Volt-ampere (VA)</item>
+        <item name="25">Watt</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment16">Force</string>
+    <string name="Force_prompt">Force</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Force_list">
+        <item name="1">Gram-force</item>
+        <item name="2">Grave-force (Gf)</item>
+        <item name="3">Gravet-force (gf)</item>
+        <item name="4">Kilogram-force (kgf)</item>
+        <item name="5">Kilonewton</item>
+        <item name="6">Kilopond (kp)</item>
+        <item name="7">Meganewton</item>
+        <item name="8">Micronewton</item>
+        <item name="9">Milligram-force</item>
+        <item name="10">Milligrave-force (mGf)</item>
+        <item name="11">Millinewton</item>
+        <item name="12">Newton</item>
+        <item name="13">Ounce-force (ozf)</item>
+        <item name="14">Pound-force (lbf)</item>
+        <item name="15">Ton-force (tnf)</item>
+        <item name="16">Tonne-force</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment   currency -->
+    <string name="framgment17">Currency</string>
+    <string name="Currency_prompt">Currency</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Currency_list">
+        <item name="1">Euro (EUR)</item>
+        <item name="2">British Pound (GBP)</item>
+        <item name="3">United States Dollar (USD)</item>
+        <item name="4">Australian Dollar (AUD)</item>
+        <item name="5">Canadian Dollar (CAD)</item>
+        <item name="6">Swiss Franc (CHF)</item>
+        <item name="7">ChineseYuan (CNY)</item>
+        <item name="8">Hong Kong Dollar (HKD)</item>
+        <item name="9">Indonesian Rupiah (IDR)</item>
+        <item name="10">Indian Rupee(INR)</item>
+        <item name="11">Japanese Yen (JPY)</item>
+        <item name="12">Thai Baht (THB)</item>
+        <item name="13">Albanian Lek (ALL)</item>
+        <item name="14">Algerian Dinar (DZD)</item>
+        <item name="15">Aluminium Ounces (XAL)</item>
+        <item name="16">Argentine Peso (ARS)</item>
+        <item name="17">ArubaFlorin (AWG)</item>
+        <item name="18">Bahamian Dollar (BSD)</item>
+        <item name="19">Bahraini Dinar (BHD)</item>
+        <item name="20">Bangladesh Taka(BDT)</item>
+        <item name="21">Barbados Dollar (BBD)</item>
+        <item name="22">Belarus Ruble (BYR)</item>
+        <item name="23">Belize Dollar (BZD)</item>
+        <item name="24">Bermuda Dollar (BMD)</item>
+        <item name="25">Bhutan Ngultrum (BTN)</item>
+        <item name="26">Bolivian Boliviano (BOB)</item>
+        <item name="27">Botswana Pula (BWP)</item>
+        <item name="28">Brazilian Real (BRL)</item>
+        <item name="29">Brunei Dollar (BND)</item>
+        <item name="30">Bulgarian Lev(BGN)</item>
+        <item name="31">Burundi Franc (BIF)</item>
+        <item name="32">Cambodia Riel (KHR)</item>
+        <item name="33">Cape Verde Escudo (CVE)</item>
+        <item name="34">Cayman Islands Dollar (KYD)</item>
+        <item name="35">CFA Franc (BCEAO) (XOF)</item>
+        <item name="36">CFA Franc (BEAC) (XAF)</item>
+        <item name="37">Chilean Peso (CLP)</item>
+        <item name="38">Colombian Peso (COP)</item>
+        <item name="39">Comoros Franc (KMF)</item>
+        <item name="41">Copper Pounds(XCP)</item>
+        <item name="42">Costa Rica Colon (CRC)</item>
+        <item name="43">Croatian Kuna (HRK)</item>
+        <item name="44">Cuban Peso (CUP)</item>
+        <item name="45">Czech Koruna (CZK)</item>
+        <item name="46">Danish Krone (DKK)</item>
+        <item name="47">Dijibouti Franc (DJF)</item>
+        <item name="48">Dominican Peso(DOP)</item>
+        <item name="49">East Caribbean Dollar (XCD)</item>
+        <item name="50">Ecuador Sucre (ECS)</item>
+        <item name="51">Egyptian Pound(EGP)</item>
+        <item name="52">El Salvador Colon (SVC)</item>
+        <item name="53">Eritrea Nakfa (ERN)</item>
+        <item name="54">Estonian Kroon (EEK)</item>
+        <item name="55">Ethiopian Birr (ETB)</item>
+        <item name="56">Falkland Islands Pound (FKP)</item>
+        <item name="57">Fiji Dollar (FJD)</item>
+        <item name="58">Gambian Dalasi (GMD)</item>
+        <item name="59">Ghanian Cedi (GHC)</item>
+        <item name="60">Gibraltar Pound (GIP)</item>
+        <item name="61">Gold Ounces(XAU)</item>
+        <item name="62">Guatemala Quetzal (GTQ)</item>
+        <item name="63">Guinea Franc (GNF)</item>
+        <item name="64">Guyana Dollar (GYD)</item>
+        <item name="65">Haiti Gourde (HTG)</item>
+        <item name="66">Honduras Lempira (HNL)</item>
+        <item name="67">Hungarian Forint (HUF)</item>
+        <item name="68">Iceland Krona (ISK)</item>
+        <item name="69">Iran Rial (IRR)</item>
+        <item name="70">Iraqi Dinar (IQD)</item>
+        <item name="71">Israeli Shekel (ILS)</item>
+        <item name="72">Jamaican Dollar (JMD)</item>
+        <item name="73">Jordanian Dinar (JOD)</item>
+        <item name="74">Kazakhstan Tenge (KZT)</item>
+        <item name="75">Kenyan Shilling (KES)</item>
+        <item name="76">South Korean Won (KRW)</item>
+        <item name="77">Kuwaiti Dinar (KWD)</item>
+        <item name="78">Lao Kip(LAK)</item>
+        <item name="79">Latvian Lat (LVL)</item>
+        <item name="80">Lebanese Pound (LBP)</item>
+        <item name="81">Lesotho Loti (LSL)</item>
+        <item name="82">Liberian Dollar (LRD)</item>
+        <item name="83">Libyan Dinar (LYD)</item>
+        <item name="84">Lithuanian Lita (LTL)</item>
+        <item name="85">Macau Pataca (MOP)</item>
+        <item name="86">Macedonian Denar (MKD)</item>
+        <item name="87">Malawi Kwacha (MWK)</item>
+        <item name="88">Malaysian Ringgit(MYR)</item>
+        <item name="89">Maldives Rufiyaa (MVR)</item>
+        <item name="90">Maltese Lira (MTL)</item>
+        <item name="91">Mauritania Ougulya(MRO)</item>
+        <item name="92">Mauritius Rupee (MUR)</item>
+        <item name="93">Mexican Peso (MXN)</item>
+        <item name="94">Moldovan Leu (MDL)</item>
+        <item name="95">Mongolian Tugrik (MNT)</item>
+        <item name="96">Moroccan Dirham (MAD)</item>
+        <item name="97">Myanmar Kyat (MMK)</item>
+        <item name="98">Namibian Dollar (NAD)</item>
+        <item name="99">Nepalese Rupee (NPR)</item>
+        <item name="100">Neth Antilles Guilder (ANG)</item>
+        <item name="101">Turkish Lira(TRY)</item>
+        <item name="102">New Zealand Dollar (NZD)</item>
+        <item name="103">Nicaragua Cordoba (NIO)</item>
+        <item name="104">Nigerian Naira(NGN)</item>
+        <item name="105">North Korean Won (KPW)</item>
+        <item name="106">Norwegian Krone (NOK)</item>
+        <item name="107">Omani Rial (OMR)</item>
+        <item name="108">Pacific Franc (XPF)</item>
+        <item name="109">Pakistani Rupee (PKR)</item>
+        <item name="110">Palladium Ounces (XPD)</item>
+        <item name="111">Panama Balboa (PAB)</item>
+        <item name="112">Papua New Guinea Kina (PGK)</item>
+        <item name="113">Paraguayan Guarani (PYG)</item>
+        <item name="114">Peruvian Nuevo Sol(PEN)</item>
+        <item name="115">Philippine Peso (PHP)</item>
+        <item name="116">Platinum Ounces (XPT)</item>
+        <item name="117">Polish Zloty (PLN)</item>
+        <item name="118">Qatar Rial (QAR)</item>
+        <item name="119">Romanian New Leu (RON)</item>
+        <item name="120">Russian Rouble (RUB)</item>
+        <item name="121">Rwanda Franc (RWF)</item>
+        <item name="122">Samoa Tala (WST)</item>
+        <item name="123">Sao Tome Dobra (STD)</item>
+        <item name="124">Saudi Arabian Riyal (SAR)</item>
+        <item name="125">Seychelles Rupee (SCR)</item>
+        <item name="126">Sierra Leone Leone (SLL)</item>
+        <item name="127">Silver Ounces (XAG)</item>
+        <item name="128">Singapore Dollar (SGD)</item>
+        <item name="129">Slovak Koruna (SKK)</item>
+        <item name="130">Slovenian Tolar (SIT)</item>
+        <item name="131">Solomon Islands Dollar (SBD)</item>
+        <item name="132">Somali Shilling (SOS)</item>
+        <item name="133">South African Rand (ZAR)</item>
+        <item name="134">Sri Lanka Rupee(LKR)</item>
+        <item name="135">St Helena Pound (SHP)</item>
+        <item name="136">Sudanese Pound (SDG)</item>
+        <item name="137">Swaziland Lilageni(SZL)</item>
+        <item name="138">Swedish Krona (SEK)</item>
+        <item name="139">Syrian Pound (SYP)</item>
+        <item name="140">Taiwan Dollar (TWD)</item>
+        <item name="141">Tanzanian Shilling (TZS)</item>
+        <item name="142">Tonga Pa\'ang (TOP)</item>
+        <item name="143">Trinidad and Tobago Dollar (TTD)</item>
+        <item name="144">Tunisian Dinar (TND)</item>
+        <item name="145">UAE Dirham (AED)</item>
+        <item name="146">Ugandan Shilling (UGX)</item>
+        <item name="147">Ukraine Hryvnia (UAH)</item>
+        <item name="148">Uruguayan New Peso (UYU)</item>
+        <item name="149">Vanuatu Vatu (VUV)</item>
+        <item name="150">Venezuelan Bolivar Fuerte(VEF)</item>
+        <item name="151">Vietnam Dong (VND)</item>
+        <item name="152">Yemen Riyal (YER)</item>
+        <item name="153">Zambian Kwacha (ZMK)</item>
+        <item name="154">Zimbabwe dollar (ZWD)</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment18">Speed</string>
+    <string name="Speed_prompt">Speed</string>
+    <string name="searchText">Search units..</string>
+
+    <string-array name="Speed_list">
+        <item name="1">Foot per minute</item>
+        <item name="2">Foot per second</item>
+        <item name="3">Kilometer per hour</item>
+        <item name="4">Kilometer per second (km/s)</item>
+        <item name="5">Knot</item>
+        <item name="6">Meter per minute</item>
+        <item name="7">Meter per second (m/s)</item>
+        <item name="8">Mile per hour (mph)</item>
+        <item name="9">Mile per second</item>
+        <item name="10">Minute per kilometer</item>
+        <item name="11">Minute per mile</item>
+        <item name="12">Sea mile per hour</item>
+        <item name="13">Second per 100 metres</item>
+        <item name="14">Second per 100 yards</item>
+        <item name="15">Second per kilometer</item>
+        <item name="16">Second per mile</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment xml/pref_general.xml -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_general">General</string>
+    <string name="LanguageTitle">Language select</string>
+
+    <string-array name="selLan">
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Franch</item>
+        <item>Persian</item>
+        <item>Russian</item>
+    </string-array>
+
+    <string name="pref_title_textsize">Text size</string>
+
+    <string-array name="txt_size">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+    </string-array>
+
+    <string name="title_decimal">Decimal place </string>
+
+    <string-array name="list_decimal">
+        <item name="1">#.#</item>
+        <item name="2">#.##</item>
+        <item name="3">#.###</item>
+        <item name="4">#.####</item>
+        <item name="5">#.#####</item>
+    </string-array>
+    <string-array name="list_groupseprate">
+        <item name="1">Dot "\".\""</item>
+        <item name="2">Comma  "\",\""</item>
+    </string-array>
+
+    <string name="text_groupseprate">Set Group Sepration </string>
+    <string name="title_theme">Change Theme </string>
+
+    <string-array name="theme_txt">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+
+
+    <!-- Start Fragment xml/pref_errorreport.xml -->
+
+    <string name="error_report_menu">Reports</string>
+    <string name="unit_title">Request units</string>
+    <string name="unit_comment">Do you need more units ? </string>
+    <string name="pref_acra_disabled">Error report is now Disable </string>
+    <string name="pref_acra_enabled">Error report is now Enable </string>
+    <string name="pref_enable_acra">Send error report</string>
+
+    <!-- ********************************************************************** -->
+
+
+    <!-- Start Fragment xml/pref_about.xml -->
+    <string name="about"> is an Open Source Android library 
+        that allows developers to easily create applications with sliding menus like those 
+        made popular in the Google+, YouTube, and Facebook applications. </string>
+    <string name="MenuTitleabout">About</string>
+
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- ********************************************************************** -->
+    <!-- All of units for autocomplete text in home page -->
+    <string-array name="ALLMain_list">
+        <item name="1">Circle</item>
+        <item name="2">Digree</item>
+        <item name="3">Grad</item>
+        <item name="4">Minute</item>
+        <item name="5">Radian</item>
+        <item name="6">Second</item>
+        <item name="7">Sextant</item>
+        <item name="8">Acre</item>
+        <item name="9">Are</item>
+        <item name="10">Barn</item>
+        <item name="11">Decare</item>
+        <item name="12">Hectare</item>
+        <item name="13">Homestead</item>
+        <item name="14">Perch</item>
+        <item name="15">Rude</item>
+        <item name="16">Square</item>
+        <item name="17">SquareCentimeter</item>
+        <item name="18">SquareDecimeter</item>
+        <item name="19">SquareFt</item>
+        <item name="20">SquareInch</item>
+        <item name="21">SquareKilometer</item>
+        <item name="22">SquareMeter</item>
+        <item name="23">SquareMile</item>
+        <item name="24">SquareMillimeter</item>
+        <item name="25">SquareRod</item>
+        <item name="26">SquareYard</item>
+        <item name="27">Township</item>
+        <item name="28">Bit</item>
+        <item name="29">Byte</item>
+        <item name="30">Exabit</item>
+        <item name="31">Exabyte</item>
+        <item name="32">Gigabit</item>
+        <item name="33">Gigabyte</item>
+        <item name="34">Kilobit</item>
+        <item name="35">Kilobyte</item>
+        <item name="36">Megabit</item>
+        <item name="37">Megabyte</item>
+        <item name="38">Petabit</item>
+        <item name="39">Petabyte</item>
+        <item name="40">Trabit</item>
+        <item name="41">TraByte</item>
+        <item name="42">Bit(P/S)</item>
+        <item name="43">Byte(P/S)</item>
+        <item name="44">Gigabit(P/S)</item>
+        <item name="45">Gigabyte(P/S)</item>
+        <item name="46">Hour(P/Gigabyte)</item>
+        <item name="47">Hour(P/Megabyte)</item>
+        <item name="48">Kilobit(P/S)</item>
+        <item name="49">Kilobyte(P/S)</item>
+        <item name="50">Megabit(P/S)</item>
+        <item name="51">Megabyte(P/S)</item>
+        <item name="52">Minute(P/Gigabyte)</item>
+        <item name="53">Minute(P/Megabyte)</item>
+        <item name="54">Second(P/Gigabyte)</item>
+        <item name="55">Second(P/Megabyte)</item>
+        <item name="56">Terabit(P/S)</item>
+        <item name="57">Terabyte(P/S)</item>
+        <item name="58">British Pounds(per gallon)</item>
+        <item name="59">Grams per cubic meter</item>
+        <item name="60">Grams per liter</item>
+        <item name="61">Grams per milliliter</item>
+        <item name="62">Kilogram per liter</item>
+        <item name="63">Kilograms per cubic meter</item>
+        <item name="64">Milligrams per cubic meter</item>
+        <item name="65">Ounce per British gallon</item>
+        <item name="66">Ounce per cubic foot (oz/ft3)</item>
+        <item name="67">Ounce per cubic inch (oz/in3)</item>
+        <item name="68">Ounce per cubic yard (oz/yd3)</item>
+        <item name="69">Ounce per U.S. bushel</item>
+        <item name="70">Ounce per U.S. gallon (oz/gal)</item>
+        <item name="71">Pound per U.S. bushel</item>
+        <item name="72">Pounds per cubic foot</item>
+        <item name="73">Pounds per cubic inch</item>
+        <item name="74">Pounds per cubic yard</item>
+        <item name="75">Pounds per U.S. gallon</item>
+        <item name="76">Ton per cubic meter</item>
+        <item name="77">Angstrom</item>
+        <item name="78">Barleycorn</item>
+        <item name="79">Centimeter</item>
+        <item name="80">Chain</item>
+        <item name="81">Cubit</item>
+        <item name="82">Decimeter</item>
+        <item name="83">Digit</item>
+        <item name="84">Ell</item>
+        <item name="85">Fathom</item>
+        <item name="86">Finger</item>
+        <item name="87">Foot</item>
+        <item name="88">Furlong</item>
+        <item name="89">Hand</item>
+        <item name="90">Inch</item>
+        <item name="91">Kilometer</item>
+        <item name="92">League</item>
+        <item name="93">Line</item>
+        <item name="94">Link</item>
+        <item name="95">Meter</item>
+        <item name="96">Microinch</item>
+        <item name="97">Mikrometer</item>
+        <item name="98">Mil</item>
+        <item name="99">Mile</item>
+        <item name="100">Millimeter</item>
+        <item name="101">Nail</item>
+        <item name="102">Nanometer</item>
+        <item name="103">Palm</item>
+        <item name="104">Perch</item>
+        <item name="105">Rod</item>
+        <item name="106">Yard</item>
+        <item name="107">Foot per second squared</item>
+        <item name="108">Inch per second squared</item>
+        <item name="109">Kilometer per second squared</item>
+        <item name="110">Meter per second squared</item>
+        <item name="111">Mile per second squared</item>
+        <item name="112">Millimeter per second squared</item>
+        <item name="113">Seconds from 0 to 100 km/h</item>
+        <item name="114">Seconds from 0 to 100 mph</item>
+        <item name="115">Seconds from 0 to 200 mph</item>
+        <item name="116">Seconds from 0 to 60 mph</item>
+        <item name="117">AcreFoot</item>
+        <item name="118">Barrel</item>
+        <item name="119">Centiliter</item>
+        <item name="120">CubicCentimeter</item>
+        <item name="121">CubicDecimeter</item>
+        <item name="123">CubicFoot</item>
+        <item name="124">CubicInch </item>
+        <item name="125">CubicKilometer</item>
+        <item name="126">CubicMeter</item>
+        <item name="127">CubicMillimeter</item>
+        <item name="128">CubicYard</item>
+        <item name="129">Cup</item>
+        <item name="130">Decaliter</item>
+        <item name="131">Deciliter</item>
+        <item name="132">FluidDram</item>
+        <item name="133">FluidOunce</item>
+        <item name="134">Gallon</item>
+        <item name="135">Gill</item>
+        <item name="136">Hectoliter</item>
+        <item name="137">Liter</item>
+        <item name="138">Microliter</item>
+        <item name="139">Milliliter</item>
+        <item name="140">Minim</item>
+        <item name="141">Pint</item>
+        <item name="142">Quart</item>
+        <item name="143">Tablespoon</item>
+        <item name="144">Teaspoon</item>
+        <item name="145">Degrees Celsius</item>
+        <item name="146">Degrees Delisle</item>
+        <item name="147">Degrees Fahrenheit</item>
+        <item name="148">Degrees Newton</item>
+        <item name="149">Degrees Rankine</item>
+        <item name="150">Degrees Reaumur</item>
+        <item name="151">Degrees Rømer</item>
+        <item name="152">Kelvin</item>
+        <item name="153">Atomic mass unit</item>
+        <item name="154">Carat</item>
+        <item name="155">Centigram</item>
+        <item name="156">Centner</item>
+        <item name="157">Dram</item>
+        <item name="158">Grain</item>
+        <item name="159">Gram</item>
+        <item name="160">Kilogram</item>
+        <item name="161">Kilonewton (on Earth surface)</item>
+        <item name="162">Kilotonne</item>
+        <item name="163">Long hundredweight (UK)</item>
+        <item name="164">Long ton (UK)</item>
+        <item name="165">Microgram</item>
+        <item name="166">Milligram</item>
+        <item name="167">Newton (on Earth surface)</item>
+        <item name="168">Ounce</item>
+        <item name="169">Pound</item>
+        <item name="170">Short hundredweight (US)</item>
+        <item name="171">Short ton (US)</item>
+        <item name="172">Stone</item>
+        <item name="173">Tonne</item>
+        <item name="174">Anomalistic month</item>
+        <item name="175">Anomalistic year</item>
+        <item name="176">Calendar month</item>
+        <item name="177">Century</item>
+        <item name="178">Day</item>
+        <item name="179">Dracontic month</item>
+        <item name="180">Dracontic year</item>
+        <item name="181">Gregorian year</item>
+        <item name="182">Hour</item>
+        <item name="183">Julian year</item>
+        <item name="184">Minute</item>
+        <item name="185">Second</item>
+        <item name="186">Syderic month</item>
+        <item name="187">Syderic year</item>
+        <item name="188">Synodic month</item>
+        <item name="189">Tropic year</item>
+        <item name="190">Week</item>
+        <item name="191">Bar</item>
+        <item name="192">Centimeter of mercury</item>
+        <item name="193">Hectopascal (hPa)</item>
+        <item name="194">Inch of mercury</item>
+        <item name="195">Kilogram per square centimeter</item>
+        <item name="196">Kilogram per square meter</item>
+        <item name="197">Kilonewton per square meter</item>
+        <item name="198">Kilopascal (kPa)</item>
+        <item name="199">Long ton (U.K.) per square foot</item>
+        <item name="200">Long ton (U.K.) per square inch</item>
+        <item name="201">Meganewton per square meter</item>
+        <item name="202">Megapascal (MPa)</item>
+        <item name="203">Millibar</item>
+        <item name="204">Millimeter of mercury (torr)</item>
+        <item name="205">Newton per square centimeter</item>
+        <item name="206">Newton per square meter</item>
+        <item name="207">Newton per square millimeter</item>
+        <item name="208">Pascal (Pa)</item>
+        <item name="209">Physical atmosphere (atm)</item>
+        <item name="210">Pound per square foot</item>
+        <item name="211">Pound per square inch</item>
+        <item name="212">Technical atmosphere</item>
+        <item name="213">Thousand pounds per square inch</item>
+        <item name="214">Ton (U.S.) per square foot</item>
+        <item name="215">Ton (U.S.) per square inch</item>
+        <item name="216">British Thermal Unit (BTU)</item>
+        <item name="217">Calorie (cal)</item>
+        <item name="218">Electronvolt (eV)</item>
+        <item name="219">Erg</item>
+        <item name="220">Foot-Pound </item>
+        <item name="221">Joule (J)</item>
+        <item name="222">Kilocalorie (kcal)</item>
+        <item name="223">Kilogram of TNT</item>
+        <item name="224">Kilojoule (kJ)</item>
+        <item name="225">Kilowatt hour (kW*h)</item>
+        <item name="226">Megacalorie (Mcal)</item>
+        <item name="227">Megajoule (MJ)</item>
+        <item name="228">Metre-kilogram (mkg)</item>
+        <item name="229">Million BTU</item>
+        <item name="230">Quad</item>
+        <item name="231">Therm</item>
+        <item name="232">Ton of TNT</item>
+        <item name="233">Tonne (metric) of TNT</item>
+        <item name="234">Watt hour (W*h)</item>
+        <item name="235">Watt second (W*s)</item>
+        <item name="236">British Thermal Unit per hour</item>
+        <item name="237">British Thermal Unit per minute</item>
+        <item name="238">British Thermal Unit per second</item>
+        <item name="239">Calories per hour</item>
+        <item name="240">Calories per second</item>
+        <item name="241">Erg per second</item>
+        <item name="241">Foot pound-force per second</item>
+        <item name="242">Gigacalories per hour</item>
+        <item name="243">Gigacalories per second</item>
+        <item name="244">Horsepower,boiler</item>
+        <item name="245">Horsepower,electric</item>
+        <item name="246">Horsepower,hydraulic</item>
+        <item name="247">Horsepower,mechanical (imperial)</item>
+        <item name="248">Horsepower,metric</item>
+        <item name="249">Joule per hour</item>
+        <item name="250">Joule per second </item>
+        <item name="251">Kilocalories per hour</item>
+        <item name="252">Kilocalories per second</item>
+        <item name="253">Kilogramm-force meter per second</item>
+        <item name="254">Kilowatt</item>
+        <item name="255">Megawatt</item>
+        <item name="256">Metric refrigeration ton (RT)</item>
+        <item name="257">U.S. refrigeration ton (USRT)</item>
+        <item name="258">Volt-ampere (VA)</item>
+        <item name="259">Watt</item>
+        <item name="300">Gram-force</item>
+        <item name="301">Grave-force (Gf)</item>
+        <item name="302">Gravet-force (gf)</item>
+        <item name="303">Kilogram-force (kgf)</item>
+        <item name="304">Kilonewton</item>
+        <item name="305">Kilopond (kp)</item>
+        <item name="306">Meganewton</item>
+        <item name="307">Micronewton</item>
+        <item name="308">Milligram-force</item>
+        <item name="309">Milligrave-force (mGf)</item>
+        <item name="310">Millinewton</item>
+        <item name="311">Newton</item>
+        <item name="312">Ounce-force (ozf)</item>
+        <item name="313">Pound-force (lbf)</item>
+        <item name="314">Ton-force (tnf)</item>
+        <item name="315">Tonne-force</item>
+        <item name="316">Foot per minute</item>
+        <item name="317">Foot per second</item>
+        <item name="318">Kilometer per hour</item>
+        <item name="319">Kilometer per second (km/s)</item>
+        <item name="320">Knot</item>
+        <item name="321">Meter per minute</item>
+        <item name="322">Meter per second (m/s)</item>
+        <item name="323">Mile per hour (mph)</item>
+        <item name="324">Mile per second</item>
+        <item name="325">Minute per kilometer</item>
+        <item name="326">Minute per mile</item>
+        <item name="327">Sea mile per hour</item>
+        <item name="328">Second per 100 metres</item>
+        <item name="329">Second per 100 yards</item>
+        <item name="330">Second per kilometer</item>
+        <item name="331">Second per mile</item>
+        <item name="332">Euro (EUR)</item>
+        <item name="333">British Pound (GBP)</item>
+        <item name="334">United States Dollar (USD)</item>
+        <item name="335">Australian Dollar (AUD)</item>
+        <item name="336">Canadian Dollar (CAD)</item>
+        <item name="337">Swiss Franc (CHF)</item>
+        <item name="338">ChineseYuan (CNY)</item>
+        <item name="339">Hong Kong Dollar (HKD)</item>
+        <item name="340">Indonesian Rupiah (IDR)</item>
+        <item name="341">Indian Rupee(INR)</item>
+        <item name="342">Japanese Yen (JPY)</item>
+        <item name="343">Thai Baht (THB)</item>
+        <item name="344">Albanian Lek (ALL)</item>
+        <item name="345">Algerian Dinar (DZD)</item>
+        <item name="346">Aluminium Ounces (XAL)</item>
+        <item name="347">Argentine Peso (ARS)</item>
+        <item name="348">ArubaFlorin (AWG)</item>
+        <item name="349">Bahamian Dollar (BSD)</item>
+        <item name="350">Bahraini Dinar (BHD)</item>
+        <item name="351">Bangladesh Taka(BDT)</item>
+        <item name="352">Barbados Dollar (BBD)</item>
+        <item name="353">Belarus Ruble (BYR)</item>
+        <item name="354">Belize Dollar (BZD)</item>
+        <item name="355">Bermuda Dollar (BMD)</item>
+        <item name="356">Bhutan Ngultrum (BTN)</item>
+        <item name="357">Bolivian Boliviano (BOB)</item>
+        <item name="358">Botswana Pula (BWP)</item>
+        <item name="359">Brazilian Real (BRL)</item>
+        <item name="360">Brunei Dollar (BND)</item>
+        <item name="361">Bulgarian Lev(BGN)</item>
+        <item name="362">Burundi Franc (BIF)</item>
+        <item name="363">Cambodia Riel (KHR)</item>
+        <item name="364">Cape Verde Escudo (CVE)</item>
+        <item name="365">Cayman Islands Dollar (KYD)</item>
+        <item name="366">CFA Franc (BCEAO) (XOF)</item>
+        <item name="367">CFA Franc (BEAC) (XAF)</item>
+        <item name="368">Chilean Peso (CLP)</item>
+        <item name="369">Colombian Peso (COP)</item>
+        <item name="370">Comoros Franc (KMF)</item>
+        <item name="371">Copper Pounds(XCP)</item>
+        <item name="372">Costa Rica Colon (CRC)</item>
+        <item name="373">Croatian Kuna (HRK)</item>
+        <item name="374">Cuban Peso (CUP)</item>
+        <item name="375">Czech Koruna (CZK)</item>
+        <item name="376">Danish Krone (DKK)</item>
+        <item name="377">Dijibouti Franc (DJF)</item>
+        <item name="378">Dominican Peso(DOP)</item>
+        <item name="379">East Caribbean Dollar (XCD)</item>
+        <item name="380">Ecuador Sucre (ECS)</item>
+        <item name="381">Egyptian Pound(EGP)</item>
+        <item name="381">El Salvador Colon (SVC)</item>
+        <item name="382">Eritrea Nakfa (ERN)</item>
+        <item name="383">Estonian Kroon (EEK)</item>
+        <item name="384">Ethiopian Birr (ETB)</item>
+        <item name="385">Falkland Islands Pound (FKP)</item>
+        <item name="386">Fiji Dollar (FJD)</item>
+        <item name="387">Gambian Dalasi (GMD)</item>
+        <item name="388">Ghanian Cedi (GHC)</item>
+        <item name="389">Gibraltar Pound (GIP)</item>
+        <item name="390">Gold Ounces(XAU)</item>
+        <item name="391">Guatemala Quetzal (GTQ)</item>
+        <item name="392">Guinea Franc (GNF)</item>
+        <item name="393">Guyana Dollar (GYD)</item>
+        <item name="394">Haiti Gourde (HTG)</item>
+        <item name="395">Honduras Lempira (HNL)</item>
+        <item name="396">Hungarian Forint (HUF)</item>
+        <item name="397">Iceland Krona (ISK)</item>
+        <item name="398">Iran Rial (IRR)</item>
+        <item name="399">Iraqi Dinar (IQD)</item>
+        <item name="400">Israeli Shekel (ILS)</item>
+        <item name="401">Jamaican Dollar (JMD)</item>
+        <item name="402">Jordanian Dinar (JOD)</item>
+        <item name="403">Kazakhstan Tenge (KZT)</item>
+        <item name="404">Kenyan Shilling (KES)</item>
+        <item name="405">South Korean Won (KRW)</item>
+        <item name="406">Kuwaiti Dinar (KWD)</item>
+        <item name="407">Lao Kip(LAK)</item>
+        <item name="408">Latvian Lat (LVL)</item>
+        <item name="409">Lebanese Pound (LBP)</item>
+        <item name="410">Lesotho Loti (LSL)</item>
+        <item name="411">Liberian Dollar (LRD)</item>
+        <item name="412">Libyan Dinar (LYD)</item>
+        <item name="413">Lithuanian Lita (LTL)</item>
+        <item name="414">Macau Pataca (MOP)</item>
+        <item name="415">Macedonian Denar (MKD)</item>
+        <item name="416">Malawi Kwacha (MWK)</item>
+        <item name="417">Malaysian Ringgit(MYR)</item>
+        <item name="418">Maldives Rufiyaa (MVR)</item>
+        <item name="419">Maltese Lira (MTL)</item>
+        <item name="420">Mauritania Ougulya(MRO)</item>
+        <item name="421">Mauritius Rupee (MUR)</item>
+        <item name="422">Mexican Peso (MXN)</item>
+        <item name="423">Moldovan Leu (MDL)</item>
+        <item name="424">Mongolian Tugrik (MNT)</item>
+        <item name="425">Moroccan Dirham (MAD)</item>
+        <item name="426">Myanmar Kyat (MMK)</item>
+        <item name="427">Namibian Dollar (NAD)</item>
+        <item name="428">Nepalese Rupee (NPR)</item>
+        <item name="429">Neth Antilles Guilder (ANG)</item>
+        <item name="430">Turkish Lira(TRY)</item>
+        <item name="431">New Zealand Dollar (NZD)</item>
+        <item name="432">Nicaragua Cordoba (NIO)</item>
+        <item name="433">Nigerian Naira(NGN)</item>
+        <item name="434">North Korean Won (KPW)</item>
+        <item name="435">Norwegian Krone (NOK)</item>
+        <item name="436">Omani Rial (OMR)</item>
+        <item name="437">Pacific Franc (XPF)</item>
+        <item name="438">Pakistani Rupee (PKR)</item>
+        <item name="439">Palladium Ounces (XPD)</item>
+        <item name="440">Panama Balboa (PAB)</item>
+        <item name="441">Papua New Guinea Kina (PGK)</item>
+        <item name="442">Paraguayan Guarani (PYG)</item>
+        <item name="443">Peruvian Nuevo Sol(PEN)</item>
+        <item name="444">Philippine Peso (PHP)</item>
+        <item name="445">Platinum Ounces (XPT)</item>
+        <item name="446">Polish Zloty (PLN)</item>
+        <item name="447">Qatar Rial (QAR)</item>
+        <item name="448">Romanian New Leu (RON)</item>
+        <item name="449">Russian Rouble (RUB)</item>
+        <item name="450">Rwanda Franc (RWF)</item>
+        <item name="451">Samoa Tala (WST)</item>
+        <item name="452">Sao Tome Dobra (STD)</item>
+        <item name="453">Saudi Arabian Riyal (SAR)</item>
+        <item name="454">Seychelles Rupee (SCR)</item>
+        <item name="455">Sierra Leone Leone (SLL)</item>
+        <item name="456">Silver Ounces (XAG)</item>
+        <item name="457">Singapore Dollar (SGD)</item>
+        <item name="458">Slovak Koruna (SKK)</item>
+        <item name="459">Slovenian Tolar (SIT)</item>
+        <item name="460">Solomon Islands Dollar (SBD)</item>
+        <item name="461">Somali Shilling (SOS)</item>
+        <item name="462">South African Rand (ZAR)</item>
+        <item name="463">Sri Lanka Rupee(LKR)</item>
+        <item name="464">St Helena Pound (SHP)</item>
+        <item name="465">Sudanese Pound (SDG)</item>
+        <item name="466">Swaziland Lilageni(SZL)</item>
+        <item name="467">Swedish Krona (SEK)</item>
+        <item name="468">Syrian Pound (SYP)</item>
+        <item name="469">Taiwan Dollar (TWD)</item>
+        <item name="470">Tanzanian Shilling (TZS)</item>
+        <item name="471">Tonga Pa\'ang (TOP)</item>
+        <item name="472">Trinidad and Tobago Dollar (TTD)</item>
+        <item name="473">Tunisian Dinar (TND)</item>
+        <item name="474">UAE Dirham (AED)</item>
+        <item name="475">Ugandan Shilling (UGX)</item>
+        <item name="476">Ukraine Hryvnia (UAH)</item>
+        <item name="477">Uruguayan New Peso (UYU)</item>
+        <item name="478">Vanuatu Vatu (VUV)</item>
+        <item name="479">Venezuelan Bolivar Fuerte(VEF)</item>
+        <item name="480">Vietnam Dong (VND)</item>
+        <item name="481">Yemen Riyal (YER)</item>
+        <item name="482">Zambian Kwacha (ZMK)</item>
+        <item name="483">Zimbabwe dollar (ZWD)</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+
+</resources>

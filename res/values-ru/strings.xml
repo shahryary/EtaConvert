@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Main String -->
+    <string name="app_name">EtaConverter</string>
+    <string name="tips">Tips</string>
+    <string name="setting">setting</string>
+    <string name="crash_toast_text">Ooooops ! I crashed, but a report has been sent to my developer to help fix the issue as soon as possible !</string>
+    <string name="crash_dialog_title">Super Converter has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you for your report !</string>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Sidebar Menu -->
+
+    <string-array name="fragments">
+        <item>Главная страница</item>
+        <item>Ускорение/Линейное</item>
+        <item>Угловая мера</item>
+        <item>Площадь</item>
+        <item>Курсы валют</item>
+        <item>Объём данных</item>
+        <item>Скорость передачи данных</item>
+        <item>Плотность</item>
+        <item>Расстояние, длина</item>
+        <item>Энергия, работа</item>
+        <item>Сила</item>
+        <item>Мощность</item>
+        <item>Давление</item>
+        <item>Скорость</item>
+        <item>Температура</item>
+        <item>Время</item>
+        <item>Объем, вместимость</item>
+        <item>Вес, масса</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment1">section_one</string>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Angle Fragment -->
+
+    <string name="framgment2">Угловая мера</string>
+    <string name="Angel_prompt">Угловая мера</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Angel_list">
+        <item name="1">Окружность</item>
+        <item name="2">Градус</item>
+        <item name="3">Град</item>
+        <item name="4">Минута</item>
+        <item name="5">Радиан</item>
+        <item name="6">Секунда</item>
+        <item name="7">Секстант</item>
+    </string-array>
+
+    <string name="ovalFrom">Исходная единица измерения ... </string>
+    <string name="ovalTo">Другая единица измерения</string>
+    <string name="textNumber">Введите исходное значение  ... </string>
+    <string name="textInfo_one">Перетащите исходную единицу измерения из правого списка в эту область !</string>
+    <string name="textNumberTo">Ваш  результат  ... </string>
+    <string name="textInfo_two">Здесь Вы также можете ввести значение !</string>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Area Fragment -->
+
+    <string name="framgment3">Площадь</string>
+    <string name="Area_prompt">Площадь</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Area_list">
+        <item name="1">Акр</item>
+        <item name="2">Ар</item>
+        <item name="3">Барн</item>
+        <item name="4">Декар</item>
+        <item name="5">Гектар</item>
+        <item name="6">Хомстед</item>
+        <item name="7">Перч</item>
+        <item name="8">Руд</item>
+        <item name="9">Квадрат</item>
+        <item name="10">Квадратный сантиметр</item>
+        <item name="11">Квадратный дециметр</item>
+        <item name="12">Квадратный фут</item>
+        <item name="13">Квадратный дюйм</item>
+        <item name="14">Квадратный километр</item>
+        <item name="15">Квадратный метр</item>
+        <item name="16">Квадратная миля</item>
+        <item name="17">Квадратный миллиметр</item>
+        <item name="18">Квадратный род</item>
+        <item name="19">Квадратный ярд</item>
+        <item name="20">Тауншип</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Data Size -->
+
+    <string name="framgment4">Объем данных</string>
+    <string name="DataSize_prompt">Объем данных</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="DataSize_list">
+        <item name="1">Бит</item>
+        <item name="2">Байт</item>
+        <item name="3">Эксабит</item>
+        <item name="4">Эксабайт</item>
+        <item name="5">Гигабит</item>
+        <item name="6">Гигабайт</item>
+        <item name="7">Килобит</item>
+        <item name="8">Килобайт</item>
+        <item name="9">Мегабит</item>
+        <item name="10">Мегабайт</item>
+        <item name="11">Петабит</item>
+        <item name="12">Петабайт</item>
+        <item name="13">Терабит</item>
+        <item name="14">Терабайт</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment5">Скорость передачи данных</string>
+    <string name="DTR_prompt">Скорость передачи данных</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="DTR_list">
+        <item name="1">Бит в секунду</item>
+        <item name="2">Байт в секунду</item>
+        <item name="3">Гигабит в секунду</item>
+        <item name="4">Гигабайт в секунду</item>
+        <item name="5">Час на гигабайт</item>
+        <item name="6">Час на мегабайт</item>
+        <item name="7">Килобит в секунду</item>
+        <item name="8">Калобайт в секунду</item>
+        <item name="9">Мегабит в секунду</item>
+        <item name="10">Мегабайт в секунду</item>
+        <item name="11">Минута на гигабайт</item>
+        <item name="12">Минута на мегабайт</item>
+        <item name="13">Секунда на гигабайт</item>
+        <item name="14">Секунда на мегабайт</item>
+        <item name="15">Терабит в секунду</item>
+        <item name="16">Терабайт в секунду</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment6">Плотность</string>
+    <string name="Density_prompt">Плотность</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Density_list">
+        <item name="1">Фунты на британский галлон</item>
+        <item name="2">Грамм на кубометр</item>
+        <item name="3">Грамм на литр</item>
+        <item name="4">Грамм на миллилитр</item>
+        <item name="5">Килограмм на литр</item>
+        <item name="6">Килограмм на кубометр</item>
+        <item name="7">Миллиграм на кубометр</item>
+        <item name="8">Унции на британский галлон</item>
+        <item name="9">Унции на кубический фунт</item>
+        <item name="10">Унции на кубический дюйм</item>
+        <item name="11">Унции на кубический ярд</item>
+        <item name="12">Унции на бушель США</item>
+        <item name="13">Унции на галлон США</item>
+        <item name="14">Фунты на бушель США</item>
+        <item name="15">Фунты на кубический фут</item>
+        <item name="16">Фунты на кубический дюйм</item>
+        <item name="17">Фунты на кубический ярд</item>
+        <item name="18">Фунты на галлон США</item>
+        <item name="19">Тонна на кубометр</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** DL Fragment -->
+
+    <string name="framgment7">Расстояние, длина</string>
+    <string name="DL_prompt">Расстояние, длина</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="DL_list">
+        <item name="1">Ангстрем</item>
+        <item name="2">Барлейкорн</item>
+        <item name="3">Сантиметр</item>
+        <item name="4">Чейн</item>
+        <item name="5">Кубит</item>
+        <item name="6">Дециметр</item>
+        <item name="7">Диджит</item>
+        <item name="8">Эль</item>
+        <item name="9">Фантом</item>
+        <item name="10">Фингер (палец)</item>
+        <item name="11">Фут</item>
+        <item name="12">Фарлонг</item>
+        <item name="13">Хенд (рука)</item>
+        <item name="14">Дюйм</item>
+        <item name="15">Километр</item>
+        <item name="16">Лига, лье</item>
+        <item name="17">Линия</item>
+        <item name="18">Линк</item>
+        <item name="19">Метр</item>
+        <item name="20">Микродюйм</item>
+        <item name="21">Микрометр</item>
+        <item name="22">Мил</item>
+        <item name="23">Миля</item>
+        <item name="24">Миллиметр</item>
+        <item name="25">Ноготь</item>
+        <item name="26">Нанометр</item>
+        <item name="27">Палм (ладонь)</item>
+        <item name="28">Перчь</item>
+        <item name="29">Род</item>
+        <item name="30">Ярд</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment8">Ускорение / Линейное</string>
+    <string name="DTR_prompt">Ускорение / Линейное</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="AL_list">
+        <item name="1">Фунт на секунду в квадрате</item>
+        <item name="2">Дюйм на секунду в квадрате</item>
+        <item name="3">Километр на секунду в квадрате</item>
+        <item name="4">Метр на секунду в квадрате</item>
+        <item name="5">Миля на секунду в квадрате</item>
+        <item name="6">Миллиметр на секунду в квадрате</item>
+        <item name="7">Секунд от 0 до 100 км/ч</item>
+        <item name="8">Секунд от 0 до 100 миль в час</item>
+        <item name="9">Секунд от 0 до 200 миль в час</item>
+        <item name="10">Секунд от 0 до 60 миль в час</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Volume Fragment -->
+
+    <string name="framgment9">Объем, вместимость</string>
+    <string name="Volume_prompt">Объем, вместимость</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Volume_list">
+        <item name="1">Акр-фут</item>
+        <item name="2">Баррель</item>
+        <item name="3">Сантилитр</item>
+        <item name="4">Кубический сантиметр</item>
+        <item name="5">Кубический дециметр</item>
+        <item name="6">Кубический фут</item>
+        <item name="7">Кубический дюйм</item>
+        <item name="8">Кубический километр</item>
+        <item name="9">Кубический метр</item>
+        <item name="10">Кубический миллиметр</item>
+        <item name="11">Кубический ярд</item>
+        <item name="12">Стакан</item>
+        <item name="13">Декалитр</item>
+        <item name="14">Децилитр</item>
+        <item name="15">Жидкая драхма</item>
+        <item name="16">Жидкая унция</item>
+        <item name="17">Галлон</item>
+        <item name="18">Гилл</item>
+        <item name="19">Гектолитр</item>
+        <item name="20">Литр</item>
+        <item name="21">Микролитр</item>
+        <item name="22">Миллилитр</item>
+        <item name="23">Миним</item>
+        <item name="24">Пинта</item>
+        <item name="25">Кварта</item>
+        <item name="26">Столовая ложка</item>
+        <item name="27">Чайная ложка</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+
+
+    <!-- Start Fragment -->
+
+    <string name="framgment10">Температура</string>
+    <string name="Temperature_prompt">Температура</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Temp_list">
+        <item name="1">Градус Цельсия</item>
+        <item name="2">Градус Делиля</item>
+        <item name="3">Градус Фаренгейта</item>
+        <item name="4">Градус Ньютона</item>
+        <item name="5">Градус Ранкина</item>
+        <item name="6">Градус Реомюра</item>
+        <item name="7">Градус Рёмера</item>
+        <item name="8">Кельвин</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+
+
+    <!-- Start Fragment *** Area Fragment -->
+
+    <string name="framgment11">Масса, вес</string>
+    <string name="Weight_prompt">Масса, вес</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Weight_list">
+        <item name="1">Единица атомной массы</item>
+        <item name="2">Карат</item>
+        <item name="3">Центиграмм</item>
+        <item name="4">Центнер</item>
+        <item name="5">Драхма</item>
+        <item name="6">Гран</item>
+        <item name="7">Грамм</item>
+        <item name="8">Килограмм</item>
+        <item name="9">Килоньютон (на поверхности земли)</item>
+        <item name="10">Килотонна</item>
+        <item name="11">Длинный центнер (брит)</item>
+        <item name="12">Длинная тонна (брит)</item>
+        <item name="13">Микрограмм</item>
+        <item name="14">Миллиграмм</item>
+        <item name="15">Ньютон (на поверхности земли)</item>
+        <item name="16">Унция</item>
+        <item name="17">Фунт</item>
+        <item name="18">Короткий центнер (США)</item>
+        <item name="19">Короткая тонна (США)</item>
+        <item name="20">Стоун</item>
+        <item name="21">Тонна</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment12">Время</string>
+    <string name="Density_prompt">Время</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Time_list">
+        <item name="1">Аномалистический месяц</item>
+        <item name="2">Аномалистический год</item>
+        <item name="3">Календарный месяц</item>
+        <item name="4">Век</item>
+        <item name="5">День</item>
+        <item name="6">Драконический месяц</item>
+        <item name="7">Драконический год</item>
+        <item name="8">Грегорианский год</item>
+        <item name="9">Час</item>
+        <item name="10">Юлианский год</item>
+        <item name="11">Минута</item>
+        <item name="12">Секунда</item>
+        <item name="13">Сидерический месяц</item>
+        <item name="14">Сидерический год</item>
+        <item name="15">Синодический месяц</item>
+        <item name="16">Тропический год</item>
+        <item name="17">Неделя</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Pressure Fragment -->
+
+    <string name="framgment13">Давление</string>
+    <string name="Pressure_prompt">Давление</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Pressure_list">
+        <item name="1">Бар</item>
+        <item name="2">Сантиметр ртутного столба</item>
+        <item name="3">Гектопаскаль (гПа)</item>
+        <item name="4">Дюйм ртутного столба</item>
+        <item name="5">Килограмм силы на квадратный сантиметр</item>
+        <item name="6">Килограмм силы на квадратный метр</item>
+        <item name="7">Килоньютон на квадратный метр</item>
+        <item name="8">Килопаскаль (кПа)</item>
+        <item name="9">Британская тонна силы на квадратный  фут</item>
+        <item name="10">Британская тонна силы на квадратный дюйм</item>
+        <item name="11">Меганьютон на квадратный метр</item>
+        <item name="12">Мегапаскаль (МПа)</item>
+        <item name="13">Миллибар</item>
+        <item name="14">Миллиметр ртутного столба (торр)</item>
+        <item name="15">Ньютон на квадратный сантиметр</item>
+        <item name="16">Ньютон на квадратный метр</item>
+        <item name="17">Ньютон на квадратный миллиметр</item>
+        <item name="18">Паскаль (Па)</item>
+        <item name="19">Физическая атмосфера</item>
+        <item name="20">Фунт на квадратный фут</item>
+        <item name="21">Фунт на квадратный дюйм</item>
+        <item name="22">Техническая атмосфера</item>
+        <item name="23">1000 фунтов на квадратный дюйм</item>
+        <item name="24">Тонна силы на квадратный фут (США)</item>
+        <item name="25">Тонна силы на квадратный дюйм</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Energy Fragment -->
+
+    <string name="framgment14">Энергия, работа</string>
+    <string name="Enwo_prompt">Энергия, работа</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="EnergyWork_list">
+        <item name="1">Британская термальная единица (BTU)</item>
+        <item name="2">Калория (Кал)</item>
+        <item name="3">Электронвольт (эВ)</item>
+        <item name="4">Эрг</item>
+        <item name="5">Фут-фунт</item>
+        <item name="6">Джоуль (Дж)</item>
+        <item name="7">Килокалория (кКал)</item>
+        <item name="8">Килограмм тротила</item>
+        <item name="9">Килоджоуль (кДж)</item>
+        <item name="10">Киловатт час (кВт*час)</item>
+        <item name="11">Мегаколория (МКал)</item>
+        <item name="12">Мегаджоуль (МДж)</item>
+        <item name="13">Метр-килограмм (м*кг)</item>
+        <item name="14">Миллион BTU</item>
+        <item name="15">Квад</item>
+        <item name="16">Терм</item>
+        <item name="17">Тонна тротила (США)</item>
+        <item name="18">Тонна тротила (метрич)</item>
+        <item name="19">Ватт час (Вт*час)</item>
+        <item name="20">Ватт секунда (Вт*сек)</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment *** Power/Capacity Fragment -->
+
+    <string name="framgment15">Мощность</string>
+    <string name="Power_prompt">Мощность</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="PC_list">
+        <item name="1">Британская термальная единица в час</item>
+        <item name="2">Британская термальная единица в минуту</item>
+        <item name="3">Британская термальная единица в секунду</item>
+        <item name="4">Калорий в час</item>
+        <item name="5">Калорий в секунду</item>
+        <item name="6">Эрг в секунду</item>
+        <item name="7">Фут фунт-сила в секунду</item>
+        <item name="8">Гигакалорий в час</item>
+        <item name="9">Гигакалорий в секунду</item>
+        <item name="10">Котловая лошадиная сила</item>
+        <item name="11">Электрическая лошадиная сила</item>
+        <item name="12">Гидравлическая лошадиная сила</item>
+        <item name="13">Механическая лошадиная сила</item>
+        <item name="14">Метрическая лошадиная сила</item>
+        <item name="15">Джоуль в час</item>
+        <item name="16">Джоуль в секунду</item>
+        <item name="17">Килокалорий в час</item>
+        <item name="18">Килокалорий в секунду</item>
+        <item name="19">Килограмм-сила метр в секунду</item>
+        <item name="20">Киловатт</item>
+        <item name="21">Мегаватт</item>
+        <item name="22">Метрическая тонна охлаждения</item>
+        <item name="23">Американская тонна охлаждения</item>
+        <item name="24">Вольт-Ампер (ВА)</item>
+        <item name="25">Ватт</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment16">Сила</string>
+    <string name="Force_prompt">Сила</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Force_list">
+        <item name="1">Грамм-сила</item>
+        <item name="2">Грейв-сила (Gf)</item>
+        <item name="3">Гравет-сила (gf)</item>
+        <item name="4">Килограмм-сила (kgf)</item>
+        <item name="5">Килоньютон</item>
+        <item name="6">Килофунт (kp)</item>
+        <item name="7">Меганьютон</item>
+        <item name="8">Микроньютон</item>
+        <item name="9">Миллиграмм-сила</item>
+        <item name="10">Миллигрейв-сила (mGf)</item>
+        <item name="11">Миллиньютон</item>
+        <item name="12">Ньютон</item>
+        <item name="13">Унция-сила (ozf)</item>
+        <item name="14">Фунт-сила (lbf)</item>
+        <item name="15">Тонна-сила (tnf)</item>
+        <item name="16">Тонна-сила (тс)</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment   currency -->
+    <string name="framgment17">Курсы валют</string>
+    <string name="Currency_prompt">Курсы валют</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Currency_list">
+        <item name="1">Евро (EUR)</item>
+        <item name="2">Британский фунт стерлинг (GBP)</item>
+        <item name="3">Доллар США (USD)</item>
+        <item name="4">Австралийский доллар (AUD)</item>
+        <item name="5">Канадский доллар (CAD)</item>
+        <item name="6">Шведский франк (CHF)</item>
+        <item name="7">Китайский юань (CNY)</item>
+        <item name="8">Гонконгский доллар (HKD)</item>
+        <item name="9">Индонезийская рупия (IDR)</item>
+        <item name="10">Индийская рупия(INR)</item>
+        <item name="11">Японская иена (JPY)</item>
+        <item name="12">Тайский бат (THB)</item>
+        <item name="13">Албанский лек (ALL)</item>
+        <item name="14">Алжирский динар (DZD)</item>
+        <item name="15">Алюминиевые унций (XAL)</item>
+        <item name="16">Аргентинский песо (ARS)</item>
+        <item name="17">Флорин Арубы (AWG)</item>
+        <item name="18">Багамский доллар (BSD)</item>
+        <item name="19">Бахрейнский динар (BHD)</item>
+        <item name="20">Бангладеш така(BDT)</item>
+        <item name="21">Барбадосский доллар (BBD)</item>
+        <item name="22">Белорусский рубль (BYR)</item>
+        <item name="23">Белизский доллар (BZD)</item>
+        <item name="24">Бермудский доллар (BMD)</item>
+        <item name="25">Бутанский Нгултрум (BTN)</item>
+        <item name="26">Боливийский Боливиано (BOB)</item>
+        <item name="27">Ботсвана Пула (BWP)</item>
+        <item name="28">Бразильский реал (BRL)</item>
+        <item name="29">Брунейский доллар (BND)</item>
+        <item name="30">Болгарский лев (BGN)</item>
+        <item name="31">Бурунди франк (BIF)</item>
+        <item name="32">Камбоджийский риель (KHR)</item>
+        <item name="33">Кабо-Верде Эскудо (CVE)</item>
+        <item name="34">Доллар Каймановых островов (KYD)</item>
+        <item name="35">Франк КФА (BCEAO) (XOF)</item>
+        <item name="36">Франк КФА (BEAC) (XAF)</item>
+        <item name="37">Чилийское песо (CLP)</item>
+        <item name="38">Колумбийское песо (COP)</item>
+        <item name="39">Франк Коморских островов (KMF)</item>
+        <item name="41">Медный Фунт (XCP)</item>
+        <item name="42">Коста-Рика Колон (CRC)</item>
+        <item name="43">Хорватская куна (HRK)</item>
+        <item name="44">Кубинское песо (CUP)</item>
+        <item name="45">Чешская крона (CZK)</item>
+        <item name="46">Датская Крона (DKK)</item>
+        <item name="47">Франк Джибути (DJF)</item>
+        <item name="48">Доминиканский песо (DOP)</item>
+        <item name="49">Восточно-карибский доллар (XCD)</item>
+        <item name="50">Эквадорский Сукре (ECS)</item>
+        <item name="51">Египетский фунт(EGP)</item>
+        <item name="52">Сальвадорский колон (SVC)</item>
+        <item name="53">Эритрея Накфа (ERN)</item>
+        <item name="54">Эстонская крона (EEK)</item>
+        <item name="55">Эфиопский быр (ETB)</item>
+        <item name="56">Фунт Фолклендских островов (FKP)</item>
+        <item name="57">Доллар Фиджи (FJD)</item>
+        <item name="58">Гамбийский даласи (GMD)</item>
+        <item name="59">Ганский седи (GHC)</item>
+        <item name="60">Гибралтарский фунт (GIP)</item>
+        <item name="61">Унции золота (XAU)</item>
+        <item name="62">Гватемальский кетцаль (GTQ)</item>
+        <item name="63">Гвинейский франк (GNF)</item>
+        <item name="64">Гайанский доллар (GYD)</item>
+        <item name="65">Гаитянский гурд (HTG)</item>
+        <item name="66">Гондурас лемпира (HNL)</item>
+        <item name="67">Венгерский форинт (HUF)</item>
+        <item name="68">Исландская крона (ISK)</item>
+        <item name="69">Иранский риал (IRR)</item>
+        <item name="70">Иракский Динар (IQD)</item>
+        <item name="71">Новый израильский шекель (ILS)</item>
+        <item name="72">Ямайский доллар (JMD)</item>
+        <item name="73">Иорданский динар (JOD)</item>
+        <item name="74">Казахстанский тенге (KZT)</item>
+        <item name="75">Кенийский шиллинг (KES)</item>
+        <item name="76">Южнокорейская вона (KRW)</item>
+        <item name="77">Кувейтский динар (KWD)</item>
+        <item name="78">Кип Лаосской НДР (LAK)</item>
+        <item name="79">Латвийский лат (LVL)</item>
+        <item name="80">Ливанский Фунт (LBP)</item>
+        <item name="81">Лоти Лесото (LSL)</item>
+        <item name="82">Либерийский доллар (LRD)</item>
+        <item name="83">Ливийский динар (LYD)</item>
+        <item name="84">Литовский лит (LTL)</item>
+        <item name="85">Патака Макао (MOP)</item>
+        <item name="86">Македонский динар (MKD)</item>
+        <item name="87">Малави квача (MWK)</item>
+        <item name="88">Малайзийский ринггит(MYR)</item>
+        <item name="89">Мальдивская руфия (MVR)</item>
+        <item name="90">Мальтийская лира (MTL)</item>
+        <item name="91">Мавританская угия (MRO)</item>
+        <item name="92">Маврикий рупия (MUR)</item>
+        <item name="93">Мексиканское песо (MXN)</item>
+        <item name="94">Молдавский лей (MDL)</item>
+        <item name="95">Монгольский Тугрик (MNT)</item>
+        <item name="96">Марокканский дирхам (MAD)</item>
+        <item name="97">Мьянма Кьят (MMK)</item>
+        <item name="98">Доллар Намибии (NAD)</item>
+        <item name="99">Непальская рупия (NPR)</item>
+        <item name="100">Антильский гульден (ANG)</item>
+        <item name="101">Турецкая лира (TRY)</item>
+        <item name="102">Новозеландский доллар (NZD)</item>
+        <item name="103">Никарагуа Кордоба (NIO)</item>
+        <item name="104">Нигерийская найра (NGN)</item>
+        <item name="105">Северо-корейская вона (KPW)</item>
+        <item name="106">Норвежская крона (NOK)</item>
+        <item name="107">Оманский риал (OMR)</item>
+        <item name="108">Французский тихоокеанский франк (XPF)</item>
+        <item name="109">Пакистанская рупия (PKR)</item>
+        <item name="110">Палладий унция (XPD)</item>
+        <item name="111">Панамский бальбоа (PAB)</item>
+        <item name="112">Папуа-Новая Гвинея Кина (PGK)</item>
+        <item name="113">Парагвайский гуарани (PYG)</item>
+        <item name="114">Перуанский новый соль (PEN)</item>
+        <item name="115">Филиппинский песо (PHP)</item>
+        <item name="116">Платиновые унции (XPT)</item>
+        <item name="117">Польский злотый (PLN)</item>
+        <item name="118">Катарский риал (QAR)</item>
+        <item name="119">Новый румынский лей (RON)</item>
+        <item name="120">Русский рубль (RUB)</item>
+        <item name="121">Руанда франк (RWF)</item>
+        <item name="122">Тала Самоа (WST)</item>
+        <item name="123">Добра Сан-Томе (STD)</item>
+        <item name="124">Саудовский риял (SAR)</item>
+        <item name="125">Сейшельская рупия (SCR)</item>
+        <item name="126">Сьерра-Леоне Леоне (SLL)</item>
+        <item name="127">Серебряный унций (XAG)</item>
+        <item name="128">Сингапурский доллар (SGD)</item>
+        <item name="129">Словацкая крона (SKK)</item>
+        <item name="130">Словенский толар (SIT)</item>
+        <item name="131">Доллар Соломоновых островов (SBD)</item>
+        <item name="132">Сомалийский шиллинг (SOS)</item>
+        <item name="133">Южноафриканский рэнд (ZAR)</item>
+        <item name="134">Шри-ланкийская рупия (LKR)</item>
+        <item name="135">Фунт Святой Елены (SHP)</item>
+        <item name="136">Суданский фунт (SDG)</item>
+        <item name="137">Свазиленд лилангени (SZL)</item>
+        <item name="138">Шведская крона (SEK)</item>
+        <item name="139">Сирийские фунты (SYP)</item>
+        <item name="140">Тайваньский доллар (TWD)</item>
+        <item name="141">Танзанийский шиллинг (TZS)</item>
+        <item name="142">Тонга паанга (TOP)</item>
+        <item name="143">Доллар Тринидада и Тобаго (TTD)</item>
+        <item name="144">Тунисский динар (TND)</item>
+        <item name="145">Дирхам ОАЭ (AED)</item>
+        <item name="146">Угандийский шиллинг (UGX)</item>
+        <item name="147">Гривна Украины (UAH)</item>
+        <item name="148">Уругвайский песо (UYU)</item>
+        <item name="149">Вануатский вату (VUV)</item>
+        <item name="150">Венесуэльский боливар фуэрте (VEF)</item>
+        <item name="151">Вьетнамский донг (VND)</item>
+        <item name="152">Йеменский риал (YER)</item>
+        <item name="153">Замбия квача (ZMK)</item>
+        <item name="154">Доллар Зимбабве (ZWD)</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment -->
+
+    <string name="framgment18">Скорость</string>
+    <string name="Speed_prompt">Скорость</string>
+    <string name="searchText">Поиск..</string>
+
+    <string-array name="Speed_list">
+        <item name="1">Фут в минуту</item>
+        <item name="2">Фут в секунду</item>
+        <item name="3">Километр в час (км/ч)</item>
+        <item name="4">Километр в секунду (км/с)</item>
+        <item name="5">Узел</item>
+        <item name="6">Метр в минуту</item>
+        <item name="7">Метр в секунду (м/с)</item>
+        <item name="8">Миля в час</item>
+        <item name="9">Миля в секунду</item>
+        <item name="10">Минута на километр</item>
+        <item name="11">Минута на милю</item>
+        <item name="12">Морская миля в час</item>
+        <item name="13">Секунда на стометровку</item>
+        <item name="14">Секунда на сто ярдов</item>
+        <item name="15">Секунда на километр</item>
+        <item name="16">Секунда на милю</item>
+    </string-array>
+    <!-- ********************************************************************** -->
+    <!-- Start Fragment xml/pref_general.xml -->
+    <string name="title_activity_settings">Настройки</string>
+    <string name="pref_header_general">Общие</string>
+    <string name="LanguageTitle">Язык</string>
+
+    <string-array name="selLan">
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Franch</item>
+        <item>Persian</item>
+        <item>Russian</item>
+    </string-array>
+
+    <string name="pref_title_textsize">Размер шрифта</string>
+
+    <string-array name="txt_size">
+        <item>Малый</item>
+        <item>Нормальный</item>
+        <item>Большой</item>
+    </string-array>
+
+    <string name="title_decimal">Количество знаков после запятой</string>
+
+    <string-array name="list_decimal">
+        <item name="1">#.#</item>
+        <item name="2">#.##</item>
+        <item name="3">#.###</item>
+        <item name="4">#.####</item>
+        <item name="5">#.#####</item>
+    </string-array>
+    <string-array name="list_groupseprate">
+        <item name="1">Dot "\".\""</item>
+        <item name="2">Comma  "\",\""</item>
+    </string-array>
+
+    <string name="text_groupseprate">Set Group Sepration </string>
+    <string name="title_theme">Change Theme </string>
+
+    <string-array name="theme_txt">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <!-- ********************************************************************** -->
+
+
+    <!-- Start Fragment xml/pref_errorreport.xml -->
+
+    <string name="error_report_menu">Reports</string>
+    <string name="unit_title">Request units</string>
+    <string name="unit_comment">Do you need more units ? </string>
+    <string name="pref_acra_disabled">Error report is now Disable </string>
+    <string name="pref_acra_enabled">Error report is now Enable </string>
+    <string name="pref_enable_acra">Send error report</string>
+
+    <!-- ********************************************************************** -->
+
+
+    <!-- Start Fragment xml/pref_about.xml -->
+    <string name="about"> is an Open Source Android library 
+        that allows developers to easily create applications with sliding menus like those 
+        made popular in the Google+, YouTube, and Facebook applications. </string>
+    <string name="MenuTitleabout">About</string>
+
+    <!-- ********************************************************************** -->
+
+    <string-array name="ALLMain_list">
+        <item name="1">Евро (EUR)</item>
+        <item name="2">Британский фунт стерлинг (GBP)</item>
+        <item name="3">Доллар США (USD)</item>
+        <item name="4">Австралийский доллар (AUD)</item>
+        <item name="5">Канадский доллар (CAD)</item>
+        <item name="6">Шведский франк (CHF)</item>
+        <item name="7">Китайский юань (CNY)</item>
+        <item name="8">Гонконгский доллар (HKD)</item>
+        <item name="9">Индонезийская рупия (IDR)</item>
+        <item name="10">Индийская рупия(INR)</item>
+        <item name="11">Японская иена (JPY)</item>
+        <item name="12">Тайский бат (THB)</item>
+        <item name="13">Албанский лек (ALL)</item>
+        <item name="14">Алжирский динар (DZD)</item>
+        <item name="15">Алюминиевые унций (XAL)</item>
+        <item name="16">Аргентинский песо (ARS)</item>
+        <item name="17">Флорин Арубы (AWG)</item>
+        <item name="18">Багамский доллар (BSD)</item>
+        <item name="19">Бахрейнский динар (BHD)</item>
+        <item name="20">Бангладеш така(BDT)</item>
+        <item name="21">Барбадосский доллар (BBD)</item>
+        <item name="22">Белорусский рубль (BYR)</item>
+        <item name="23">Белизский доллар (BZD)</item>
+        <item name="24">Бермудский доллар (BMD)</item>
+        <item name="25">Бутанский Нгултрум (BTN)</item>
+        <item name="26">Боливийский Боливиано (BOB)</item>
+        <item name="27">Ботсвана Пула (BWP)</item>
+        <item name="28">Бразильский реал (BRL)</item>
+        <item name="29">Брунейский доллар (BND)</item>
+        <item name="30">Болгарский лев (BGN)</item>
+        <item name="31">Бурунди франк (BIF)</item>
+        <item name="32">Камбоджийский риель (KHR)</item>
+        <item name="33">Кабо-Верде Эскудо (CVE)</item>
+        <item name="34">Доллар Каймановых островов (KYD)</item>
+        <item name="35">Франк КФА (BCEAO) (XOF)</item>
+        <item name="36">Франк КФА (BEAC) (XAF)</item>
+        <item name="37">Чилийское песо (CLP)</item>
+        <item name="38">Колумбийское песо (COP)</item>
+        <item name="39">Франк Коморских островов (KMF)</item>
+        <item name="41">Медный Фунт (XCP)</item>
+        <item name="42">Коста-Рика Колон (CRC)</item>
+        <item name="43">Хорватская куна (HRK)</item>
+        <item name="44">Кубинское песо (CUP)</item>
+        <item name="45">Чешская крона (CZK)</item>
+        <item name="46">Датская Крона (DKK)</item>
+        <item name="47">Франк Джибути (DJF)</item>
+        <item name="48">Доминиканский песо (DOP)</item>
+        <item name="49">Восточно-карибский доллар (XCD)</item>
+        <item name="50">Эквадорский Сукре (ECS)</item>
+        <item name="51">Египетский фунт(EGP)</item>
+        <item name="52">Сальвадорский колон (SVC)</item>
+        <item name="53">Эритрея Накфа (ERN)</item>
+        <item name="54">Эстонская крона (EEK)</item>
+        <item name="55">Эфиопский быр (ETB)</item>
+        <item name="56">Фунт Фолклендских островов (FKP)</item>
+        <item name="57">Доллар Фиджи (FJD)</item>
+        <item name="58">Гамбийский даласи (GMD)</item>
+        <item name="59">Ганский седи (GHC)</item>
+        <item name="60">Гибралтарский фунт (GIP)</item>
+        <item name="61">Унции золота (XAU)</item>
+        <item name="62">Гватемальский кетцаль (GTQ)</item>
+        <item name="63">Гвинейский франк (GNF)</item>
+        <item name="64">Гайанский доллар (GYD)</item>
+        <item name="65">Гаитянский гурд (HTG)</item>
+        <item name="66">Гондурас лемпира (HNL)</item>
+        <item name="67">Венгерский форинт (HUF)</item>
+        <item name="68">Исландская крона (ISK)</item>
+        <item name="69">Иранский риал (IRR)</item>
+        <item name="70">Иракский Динар (IQD)</item>
+        <item name="71">Новый израильский шекель (ILS)</item>
+        <item name="72">Ямайский доллар (JMD)</item>
+        <item name="73">Иорданский динар (JOD)</item>
+        <item name="74">Казахстанский тенге (KZT)</item>
+        <item name="75">Кенийский шиллинг (KES)</item>
+        <item name="76">Южнокорейская вона (KRW)</item>
+        <item name="77">Кувейтский динар (KWD)</item>
+        <item name="78">Кип Лаосской НДР (LAK)</item>
+        <item name="79">Латвийский лат (LVL)</item>
+        <item name="80">Ливанский Фунт (LBP)</item>
+        <item name="81">Лоти Лесото (LSL)</item>
+        <item name="82">Либерийский доллар (LRD)</item>
+        <item name="83">Ливийский динар (LYD)</item>
+        <item name="84">Литовский лит (LTL)</item>
+        <item name="85">Патака Макао (MOP)</item>
+        <item name="86">Македонский динар (MKD)</item>
+        <item name="87">Малави квача (MWK)</item>
+        <item name="88">Малайзийский ринггит(MYR)</item>
+        <item name="89">Мальдивская руфия (MVR)</item>
+        <item name="90">Мальтийская лира (MTL)</item>
+        <item name="91">Мавританская угия (MRO)</item>
+        <item name="92">Маврикий рупия (MUR)</item>
+        <item name="93">Мексиканское песо (MXN)</item>
+        <item name="94">Молдавский лей (MDL)</item>
+        <item name="95">Монгольский Тугрик (MNT)</item>
+        <item name="96">Марокканский дирхам (MAD)</item>
+        <item name="97">Мьянма Кьят (MMK)</item>
+        <item name="98">Доллар Намибии (NAD)</item>
+        <item name="99">Непальская рупия (NPR)</item>
+        <item name="100">Антильский гульден (ANG)</item>
+        <item name="101">Турецкая лира (TRY)</item>
+        <item name="102">Новозеландский доллар (NZD)</item>
+        <item name="103">Никарагуа Кордоба (NIO)</item>
+        <item name="104">Нигерийская найра (NGN)</item>
+        <item name="105">Северо-корейская вона (KPW)</item>
+        <item name="106">Норвежская крона (NOK)</item>
+        <item name="107">Оманский риал (OMR)</item>
+        <item name="108">Французский тихоокеанский франк (XPF)</item>
+        <item name="109">Пакистанская рупия (PKR)</item>
+        <item name="110">Палладий унция (XPD)</item>
+        <item name="111">Панамский бальбоа (PAB)</item>
+        <item name="112">Папуа-Новая Гвинея Кина (PGK)</item>
+        <item name="113">Парагвайский гуарани (PYG)</item>
+        <item name="114">Перуанский новый соль (PEN)</item>
+        <item name="115">Филиппинский песо (PHP)</item>
+        <item name="116">Платиновые унции (XPT)</item>
+        <item name="117">Польский злотый (PLN)</item>
+        <item name="118">Катарский риал (QAR)</item>
+        <item name="119">Новый румынский лей (RON)</item>
+        <item name="120">Русский рубль (RUB)</item>
+        <item name="121">Руанда франк (RWF)</item>
+        <item name="122">Тала Самоа (WST)</item>
+        <item name="123">Добра Сан-Томе (STD)</item>
+        <item name="124">Саудовский риял (SAR)</item>
+        <item name="125">Сейшельская рупия (SCR)</item>
+        <item name="126">Сьерра-Леоне Леоне (SLL)</item>
+        <item name="127">Серебряный унций (XAG)</item>
+        <item name="128">Сингапурский доллар (SGD)</item>
+        <item name="129">Словацкая крона (SKK)</item>
+        <item name="130">Словенский толар (SIT)</item>
+        <item name="131">Доллар Соломоновых островов (SBD)</item>
+        <item name="132">Сомалийский шиллинг (SOS)</item>
+        <item name="133">Южноафриканский рэнд (ZAR)</item>
+        <item name="134">Шри-ланкийская рупия (LKR)</item>
+        <item name="135">Фунт Святой Елены (SHP)</item>
+        <item name="136">Суданский фунт (SDG)</item>
+        <item name="137">Свазиленд лилангени (SZL)</item>
+        <item name="138">Шведская крона (SEK)</item>
+        <item name="139">Сирийские фунты (SYP)</item>
+        <item name="140">Тайваньский доллар (TWD)</item>
+        <item name="141">Танзанийский шиллинг (TZS)</item>
+        <item name="142">Тонга паанга (TOP)</item>
+        <item name="143">Доллар Тринидада и Тобаго (TTD)</item>
+        <item name="144">Тунисский динар (TND)</item>
+        <item name="145">Дирхам ОАЭ (AED)</item>
+        <item name="146">Угандийский шиллинг (UGX)</item>
+        <item name="147">Гривна Украины (UAH)</item>
+        <item name="148">Уругвайский песо (UYU)</item>
+        <item name="149">Вануатский вату (VUV)</item>
+        <item name="150">Венесуэльский боливар фуэрте (VEF)</item>
+        <item name="151">Вьетнамский донг (VND)</item>
+        <item name="152">Йеменский риал (YER)</item>
+        <item name="153">Замбия квача (ZMK)</item>
+        <item name="154">Доллар Зимбабве (ZWD)</item>
+        <item name="155">Окружность</item>
+        <item name="156">Градус</item>
+        <item name="157">Град</item>
+        <item name="158">Минута</item>
+        <item name="159">Радиан</item>
+        <item name="160">Секунда</item>
+        <item name="161">Секстант</item>
+        <item name="162">Акр</item>
+        <item name="163">Ар</item>
+        <item name="164">Барн</item>
+        <item name="165">Декар</item>
+        <item name="166">Гектар</item>
+        <item name="167">Хомстед</item>
+        <item name="168">Перч</item>
+        <item name="169">Руд</item>
+        <item name="170">Квадрат</item>
+        <item name="171">Квадратный сантиметр</item>
+        <item name="172">Квадратный дециметр</item>
+        <item name="173">Квадратный фут</item>
+        <item name="174">Квадратный дюйм</item>
+        <item name="175">Квадратный километр</item>
+        <item name="176">Квадратный метр</item>
+        <item name="177">Квадратная миля</item>
+        <item name="178">Квадратный миллиметр</item>
+        <item name="179">Квадратный род</item>
+        <item name="180">Квадратный ярд</item>
+        <item name="181">Тауншип</item>
+        <item name="182">Бит</item>
+        <item name="183">Байт</item>
+        <item name="184">Эксабит</item>
+        <item name="185">Эксабайт</item>
+        <item name="186">Гигабит</item>
+        <item name="187">Гигабайт</item>
+        <item name="188">Килобит</item>
+        <item name="189">Килобайт</item>
+        <item name="190">Мегабит</item>
+        <item name="191">Мегабайт</item>
+        <item name="192">Петабит</item>
+        <item name="193">Петабайт</item>
+        <item name="194">Терабит</item>
+        <item name="195">Терабайт</item>
+        <item name="196">Бит в секунду</item>
+        <item name="197">Байт в секунду</item>
+        <item name="198">Гигабит в секунду</item>
+        <item name="199">Гигабайт в секунду</item>
+        <item name="200">Час на гигабайт</item>
+        <item name="201">Час на мегабайт</item>
+        <item name="202">Килобит в секунду</item>
+        <item name="203">Калобайт в секунду</item>
+        <item name="204">Мегабит в секунду</item>
+        <item name="205">Мегабайт в секунду</item>
+        <item name="206">Минута на гигабайт</item>
+        <item name="207">Минута на мегабайт</item>
+        <item name="208">Секунда на гигабайт</item>
+        <item name="209">Секунда на мегабайт</item>
+        <item name="210">Терабит в секунду</item>
+        <item name="211">Терабайт в секунду</item>
+        <item name="212">Фунты на британский галлон</item>
+        <item name="213">Грамм на кубометр</item>
+        <item name="214">Грамм на литр</item>
+        <item name="215">Грамм на миллилитр</item>
+        <item name="216">Килограмм на литр</item>
+        <item name="217">Килограмм на кубометр</item>
+        <item name="218">Миллиграм на кубометр</item>
+        <item name="219">Унции на британский галлон</item>
+        <item name="220">Унции на кубический фунт</item>
+        <item name="221">Унции на кубический дюйм</item>
+        <item name="222">Унции на кубический ярд</item>
+        <item name="223">Унции на бушель США</item>
+        <item name="224">Унции на галлон США</item>
+        <item name="225">Фунты на бушель США</item>
+        <item name="226">Фунты на кубический фут</item>
+        <item name="227">Фунты на кубический дюйм</item>
+        <item name="228">Фунты на кубический ярд</item>
+        <item name="229">Фунты на галлон США</item>
+        <item name="230">Тонна на кубометр</item>
+        <item name="231">Ангстрем</item>
+        <item name="232">Барлейкорн</item>
+        <item name="233">Сантиметр</item>
+        <item name="234">Чейн</item>
+        <item name="235">Кубит</item>
+        <item name="236">Дециметр</item>
+        <item name="237">Диджит</item>
+        <item name="238">Эль</item>
+        <item name="239">Фантом</item>
+        <item name="240">Фингер (палец)</item>
+        <item name="241">Фут</item>
+        <item name="242">Фарлонг</item>
+        <item name="243">Хенд (рука)</item>
+        <item name="244">Дюйм</item>
+        <item name="245">Километр</item>
+        <item name="246">Лига, лье</item>
+        <item name="247">Линия</item>
+        <item name="248">Линк</item>
+        <item name="249">Метр</item>
+        <item name="250">Микродюйм</item>
+        <item name="251">Микрометр</item>
+        <item name="252">Мил</item>
+        <item name="253">Миля</item>
+        <item name="254">Миллиметр</item>
+        <item name="255">Ноготь</item>
+        <item name="256">Нанометр</item>
+        <item name="257">Палм (ладонь)</item>
+        <item name="258">Перчь</item>
+        <item name="259">Род</item>
+        <item name="260">Ярд</item>
+        <item name="261">Фунт на секунду в квадрате</item>
+        <item name="262">Дюйм на секунду в квадрате</item>
+        <item name="263">Километр на секунду в квадрате</item>
+        <item name="264">Метр на секунду в квадрате</item>
+        <item name="265">Миля на секунду в квадрате</item>
+        <item name="266">Миллиметр на секунду в квадрате</item>
+        <item name="267">Секунд от 0 до 100 км/ч</item>
+        <item name="268">Секунд от 0 до 100 миль в час</item>
+        <item name="269">Секунд от 0 до 200 миль в час</item>
+        <item name="270">Секунд от 0 до 60 миль в час</item>
+        <item name="271">Акр-фут</item>
+        <item name="272">Баррель</item>
+        <item name="273">Сантилитр</item>
+        <item name="274">Кубический сантиметр</item>
+        <item name="275">Кубический дециметр</item>
+        <item name="276">Кубический фут</item>
+        <item name="277">Кубический дюйм</item>
+        <item name="278">Кубический километр</item>
+        <item name="279">Кубический метр</item>
+        <item name="280">Кубический миллиметр</item>
+        <item name="281">Кубический ярд</item>
+        <item name="282">Стакан</item>
+        <item name="283">Декалитр</item>
+        <item name="284">Децилитр</item>
+        <item name="285">Жидкая драхма</item>
+        <item name="286">Жидкая унция</item>
+        <item name="287">Галлон</item>
+        <item name="288">Гилл</item>
+        <item name="289">Гектолитр</item>
+        <item name="290">Литр</item>
+        <item name="291">Микролитр</item>
+        <item name="292">Миллилитр</item>
+        <item name="293">Миним</item>
+        <item name="294">Пинта</item>
+        <item name="295">Кварта</item>
+        <item name="296">Столовая ложка</item>
+        <item name="297">Чайная ложка</item>
+        <item name="298">Градус Цельсия</item>
+        <item name="299">Градус Делиля</item>
+        <item name="300">Градус Фаренгейта</item>
+        <item name="301">Градус Ньютона</item>
+        <item name="302">Градус Ранкина</item>
+        <item name="303">Градус Реомюра</item>
+        <item name="304">Градус Рёмера</item>
+        <item name="305">Кельвин</item>
+        <item name="306">Единица атомной массы</item>
+        <item name="307">Карат</item>
+        <item name="308">Центиграмм</item>
+        <item name="309">Центнер</item>
+        <item name="310">Драхма</item>
+        <item name="311">Гран</item>
+        <item name="312">Грамм</item>
+        <item name="313">Килограмм</item>
+        <item name="314">Килоньютон (на поверхности земли)</item>
+        <item name="315">Килотонна</item>
+        <item name="316">Длинный центнер (брит)</item>
+        <item name="317">Длинная тонна (брит)</item>
+        <item name="318">Микрограмм</item>
+        <item name="319">Миллиграмм</item>
+        <item name="320">Ньютон (на поверхности земли)</item>
+        <item name="321">Унция</item>
+        <item name="322">Фунт</item>
+        <item name="323">Короткий центнер (США)</item>
+        <item name="324">Короткая тонна (США)</item>
+        <item name="325">Стоун</item>
+        <item name="326">Тонна</item>
+        <item name="327">Аномалистический месяц</item>
+        <item name="328">Аномалистический год</item>
+        <item name="329">Календарный месяц</item>
+        <item name="330">Век</item>
+        <item name="331">День</item>
+        <item name="332">Драконический месяц</item>
+        <item name="333">Драконический год</item>
+        <item name="334">Грегорианский год</item>
+        <item name="335">Час</item>
+        <item name="336">Юлианский год</item>
+        <item name="337">Минута</item>
+        <item name="338">Секунда</item>
+        <item name="339">Сидерический месяц</item>
+        <item name="340">Сидерический год</item>
+        <item name="341">Синодический месяц</item>
+        <item name="342">Тропический год</item>
+        <item name="343">Неделя</item>
+        <item name="344">Бар</item>
+        <item name="345">Сантиметр ртутного столба</item>
+        <item name="346">Гектопаскаль (гПа)</item>
+        <item name="347">Дюйм ртутного столба</item>
+        <item name="348">Килограмм силы на квадратный сантиметр</item>
+        <item name="349">Килограмм силы на квадратный метр</item>
+        <item name="350">Килоньютон на квадратный метр</item>
+        <item name="351">Килопаскаль (кПа)</item>
+        <item name="351">Британская тонна силы на квадратный  фут</item>
+        <item name="352">Британская тонна силы на квадратный дюйм</item>
+        <item name="353">Меганьютон на квадратный метр</item>
+        <item name="354">Мегапаскаль (МПа)</item>
+        <item name="355">Миллибар</item>
+        <item name="356">Миллиметр ртутного столба (торр)</item>
+        <item name="357">Ньютон на квадратный сантиметр</item>
+        <item name="358">Ньютон на квадратный метр</item>
+        <item name="359">Ньютон на квадратный миллиметр</item>
+        <item name="360">Паскаль (Па)</item>
+        <item name="361">Физическая атмосфера</item>
+        <item name="362">Фунт на квадратный фут</item>
+        <item name="363">Фунт на квадратный дюйм</item>
+        <item name="364">Техническая атмосфера</item>
+        <item name="365">1000 фунтов на квадратный дюйм</item>
+        <item name="366">Тонна силы на квадратный фут (США)</item>
+        <item name="367">Тонна силы на квадратный дюйм</item>
+        <item name="368">Британская термальная единица (BTU)</item>
+        <item name="369">Калория (Кал)</item>
+        <item name="370">Электронвольт (эВ)</item>
+        <item name="371">Эрг</item>
+        <item name="372">Фут-фунт</item>
+        <item name="373">Джоуль (Дж)</item>
+        <item name="374">Килокалория (кКал)</item>
+        <item name="375">Килограмм тротила</item>
+        <item name="376">Килоджоуль (кДж)</item>
+        <item name="377">Киловатт час (кВт*час)</item>
+        <item name="378">Мегаколория (МКал)</item>
+        <item name="379">Мегаджоуль (МДж)</item>
+        <item name="380">Метр-килограмм (м*кг)</item>
+        <item name="381">Миллион BTU</item>
+        <item name="382">Квад</item>
+        <item name="383">Терм</item>
+        <item name="384">Тонна тротила (США)</item>
+        <item name="385">Тонна тротила (метрич)</item>
+        <item name="386">Ватт час (Вт*час)</item>
+        <item name="387">Ватт секунда (Вт*сек)</item>
+        <item name="388">Британская термальная единица в час</item>
+        <item name="389">Британская термальная единица в минуту</item>
+        <item name="390">Британская термальная единица в секунду</item>
+        <item name="391">Калорий в час</item>
+        <item name="392">Калорий в секунду</item>
+        <item name="393">Эрг в секунду</item>
+        <item name="394">Фут фунт-сила в секунду</item>
+        <item name="395">Гигакалорий в час</item>
+        <item name="396">Гигакалорий в секунду</item>
+        <item name="397">Котловая лошадиная сила</item>
+        <item name="398">Электрическая лошадиная сила</item>
+        <item name="399">Гидравлическая лошадиная сила</item>
+        <item name="400">Механическая лошадиная сила</item>
+        <item name="401">Метрическая лошадиная сила</item>
+        <item name="402">Джоуль в час</item>
+        <item name="403">Джоуль в секунду</item>
+        <item name="404">Килокалорий в час</item>
+        <item name="405">Килокалорий в секунду</item>
+        <item name="406">Килограмм-сила метр в секунду</item>
+        <item name="407">Киловатт</item>
+        <item name="408">Мегаватт</item>
+        <item name="409">Метрическая тонна охлаждения</item>
+        <item name="410">Американская тонна охлаждения</item>
+        <item name="411">Вольт-Ампер (ВА)</item>
+        <item name="412">Ватт</item>
+        <item name="413">Грамм-сила</item>
+        <item name="414">Грейв-сила (Gf)</item>
+        <item name="415">Гравет-сила (gf)</item>
+        <item name="416">Килограмм-сила (kgf)</item>
+        <item name="417">Килоньютон</item>
+        <item name="418">Килофунт (kp)</item>
+        <item name="419">Меганьютон</item>
+        <item name="420">Микроньютон</item>
+        <item name="421">Миллиграмм-сила</item>
+        <item name="422">Миллигрейв-сила (mGf)</item>
+        <item name="423">Миллиньютон</item>
+        <item name="424">Ньютон</item>
+        <item name="425">Унция-сила (ozf)</item>
+        <item name="426">Фунт-сила (lbf)</item>
+        <item name="427">Тонна-сила (tnf)</item>
+        <item name="428">Тонна-сила (тс)</item>
+        <item name="429">Фут в минуту</item>
+        <item name="430">Фут в секунду</item>
+        <item name="431">Километр в час (км/ч)</item>
+        <item name="432">Километр в секунду (км/с)</item>
+        <item name="433">Узел</item>
+        <item name="434">Метр в минуту</item>
+        <item name="435">Метр в секунду (м/с)</item>
+        <item name="436">Миля в час</item>
+        <item name="437">Миля в секунду</item>
+        <item name="438">Минута на километр</item>
+        <item name="439">Минута на милю</item>
+        <item name="440">Морская миля в час</item>
+        <item name="441">Секунда на стометровку</item>
+        <item name="442">Секунда на сто ярдов</item>
+        <item name="443">Секунда на километр</item>
+        <item name="444">Секунда на милю</item>
+    </string-array>
+
+</resources>
